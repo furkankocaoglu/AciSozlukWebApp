@@ -97,6 +97,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\ManagerPanel\Assets\images\AciBiber.jpg" />
+    <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.css" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.min.css" />
@@ -124,15 +126,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\ManagerPanel\Controllers\ManagerLoginController.cs" />
+    <Compile Include="Areas\ManagerPanel\ManagerPanelAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AciSozlukDB.cs" />
+    <Compile Include="Models\Entity.cs" />
+    <Compile Include="Models\Manager.cs" />
+    <Compile Include="Models\ManagerRole.cs" />
+    <Compile Include="Models\ViewModels\ManagerLoginViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="Areas\ManagerPanel\Views\web.config" />
+    <Content Include="Areas\ManagerPanel\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\ManagerLogin\Index.cshtml" />
     <None Include="packages.config" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.css.map" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.min.css.map" />
@@ -165,6 +177,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\ManagerPanel\Data\" />
     <Folder Include="Controllers\" />
   </ItemGroup>
   <PropertyGroup>

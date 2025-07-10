@@ -8,9 +8,11 @@ namespace AciSozlukWebApp.Models
     public partial class AciSozlukDB : DbContext
     {
         public AciSozlukDB()
-            : base("name=AciSozlukDB")
+            : base("name=AciSozlukDB1")
         {
         }
+        public DbSet <Manager> Managers { get; set; }
+        public DbSet<ManagerRole> ManagerRoles { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
