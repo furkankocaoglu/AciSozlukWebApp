@@ -24,7 +24,7 @@ namespace AciSozlukWebApp.Models
         [StringLength(maximumLength: 50, ErrorMessage = "Bu alan en fazla 50 karakter olabilir")]
         public string Surname { get; set; }
 
-        [Display(Name = "KullanıcıAdı")]
+        [Display(Name = "Kullanıcı Adı")]
         [Required(ErrorMessage = "Bu alan boş bırakılamaz")]
         [StringLength(maximumLength: 20, MinimumLength = 5, ErrorMessage = "Bu alan en fazla 5-20 karakter olabilir")]
         public string UserName { get; set; }
@@ -33,9 +33,6 @@ namespace AciSozlukWebApp.Models
         [Required(ErrorMessage = "Bu alan boş bırakılamaz")]
         [StringLength(maximumLength: 20, MinimumLength = 5, ErrorMessage = "Bu alan en fazla 5-20 karakter olabilir")]
         public string Password { get; set; }
-
-        public bool IsActive { get; set; }
-
-        public bool Deleted { get; set; }
+        
     }
 }

@@ -42,5 +42,11 @@ namespace AciSozlukWebApp.Areas.ManagerPanel.Controllers
             }           
             return View();
         }
+        public ActionResult LogOut()
+        {
+            Session["ManagerSession"] = null;
+            
+            return RedirectToAction("Index","ManagerLogin");
+        }
     }
 }

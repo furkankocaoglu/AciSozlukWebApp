@@ -97,6 +97,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\ManagerPanel\Assets\css\dashboard.css" />
     <Content Include="Areas\ManagerPanel\Assets\images\AciBiber.jpg" />
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
@@ -126,6 +127,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\ManagerPanel\Controllers\HomeController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\ManagerLoginController.cs" />
     <Compile Include="Areas\ManagerPanel\ManagerPanelAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
@@ -133,18 +135,26 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AciSozlukDB.cs" />
+    <Compile Include="Models\Category.cs" />
+    <Compile Include="Models\Commit.cs" />
     <Compile Include="Models\Entity.cs" />
+    <Compile Include="Models\Entry.cs" />
+    <Compile Include="Models\FeedBack.cs" />
+    <Compile Include="Models\Like.cs" />
     <Compile Include="Models\Manager.cs" />
     <Compile Include="Models\ManagerRole.cs" />
+    <Compile Include="Models\Member.cs" />
+    <Compile Include="Models\Report.cs" />
+    <Compile Include="Models\Title.cs" />
     <Compile Include="Models\ViewModels\ManagerLoginViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="Areas\ManagerPanel\Views\web.config" />
-    <Content Include="Areas\ManagerPanel\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\ManagerPanel\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\ManagerLogin\Index.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Shared\_LayoutPage1.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Home\Index.cshtml" />
     <None Include="packages.config" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.css.map" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.min.css.map" />
