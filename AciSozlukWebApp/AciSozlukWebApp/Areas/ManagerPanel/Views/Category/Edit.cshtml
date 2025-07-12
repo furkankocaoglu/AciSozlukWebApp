@@ -1,0 +1,29 @@
+﻿@model AciSozlukWebApp.Models.Category
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <h3><strong>Kategori Düzenleme Sayfası</strong></h3>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm())
+            {
+                if (TempData["mesaj"] != null)
+                {
+                    <div class="alert alert-success">
+                        @TempData["mesaj"]
+                    </div>
+                }
+                <div class="mb-3">
+                    <strong>Yeni Kategori Adı</strong>
+                    @Html.EditorFor(x => x.CategoryName, new { htmlAttributes = new { @class = "form-control", @id = "Name" } })
+                </div>
+                <button type="submit">Düzenle</button>
+            }
+        </div>
+    </div>
+</div>

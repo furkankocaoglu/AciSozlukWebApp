@@ -127,6 +127,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\ManagerPanel\Controllers\CategoryController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\HomeController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\ManagerLoginController.cs" />
     <Compile Include="Areas\ManagerPanel\ManagerPanelAreaRegistration.cs" />
@@ -155,6 +156,10 @@
     <Content Include="Areas\ManagerPanel\Views\ManagerLogin\Index.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\Shared\_LayoutPage1.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\Home\Index.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Category\Index.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Category\Create.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Category\Edit.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Category\Deleted.cshtml" />
     <None Include="packages.config" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.css.map" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.min.css.map" />

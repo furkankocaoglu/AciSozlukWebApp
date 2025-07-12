@@ -1,0 +1,56 @@
+﻿@model List<AciSozlukWebApp.Models.Category>
+@{
+    ViewBag.Title = "Deleted";
+    Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+@if (TempData["mesaj"] != null)
+{
+    <div class="alert alert-warning">
+        @TempData["mesaj"]
+    </div>
+}
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <div class="float-start">
+                <h3><strong>Silinen Kategori Listesi</strong></h3>
+            </div>
+            <div class="float-end">
+                <a href="@Url.Action("Create","Category")"style="text-decoration:none">Yeni Kategori Gir</a>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Kategori Adı</th>
+                            <th>Oluşturma Tarihi</th>
+                            <th>Aktiflik Durumu</th>
+                            <th>İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var category in Model)
+                        {
+                            <tr>
+                                <td>@category.ID</td>
+                                <td>@category.CategoryName</td>
+                                <td>@category.CreationTime</td>
+                                <td>@(category.IsActive ? "Aktif":"Pasif")</td>
+                                <td>
+                                    <a href="@Url.Action("Back", "Category", new {id= category.ID})"style="text-decoration:none">Geri Getir</a>
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+

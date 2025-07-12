@@ -1,0 +1,37 @@
+﻿@model AciSozlukWebApp.Models.Category
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <div class="float-start">
+                <h3><strong>Kategori Ekleme Sayfası</strong></h3>
+            </div>
+            <div class="float-end">
+                <a href="@Url.Action("Index","Category")" style="text-decoration:none">Geri Dön</a>
+            </div>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm())
+            {
+                if (TempData["mesaj"] != null)
+                {
+                    <div class="alert alert-danger">
+                        @TempData["mesaj"]
+                    </div>
+                }
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <strong>Kategori Adı</strong>
+                    </div>
+                    @Html.EditorFor(x => x.CategoryName, new { htmlAttributes = new { @class = "form-control", @id = "Name" } })
+                </div>
+                <button type="submit">Oluştur</button>
+            }
+        </div>
+    </div>
+</div>
+
