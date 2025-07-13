@@ -32,6 +32,7 @@ namespace AciSozlukWebApp.Areas.ManagerPanel.Controllers
             {
                 db.Categories.Add(Model);
                 db.SaveChanges();
+                TempData["Mesaj"] = "Kategori Eklendi";
                 return RedirectToAction("Index","Category");
             }
             else

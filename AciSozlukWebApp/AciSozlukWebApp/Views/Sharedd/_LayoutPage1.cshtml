@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Source/bootstrap-5.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <a class="nav-link" href="@Url.Action("Create", "HomePageMember")">Üye Ol</a>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <script src="~/Source/bootstrap-5.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="~/Source/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

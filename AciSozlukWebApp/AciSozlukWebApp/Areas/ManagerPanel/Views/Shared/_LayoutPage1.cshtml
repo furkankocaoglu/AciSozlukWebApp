@@ -10,8 +10,8 @@
 <body>
     <header class="navbar sticky-top bg-dark p-2 shadow" data-bs-theme="dark">
         <div class="container-fluid d-flex justify-content-between align-items-center">
-            <a class="navbar-brand text-danger fw-bold" href="#">Acı Sözlük Panel Kontrol</a>
-            <a href="@Url.Action("LogOut", "ManagerLogin")" class="btn btn-outline-danger btn-sm">Güvenli Çıkış</a>
+            <a class="navbar-brand text-danger fw-bold" href="@Url.Action("Index","Home")">Acı Sözlük Panel Kontrol</a>
+            <a href="@Url.Action("LogOut", "ManagerLogin")" class="btn btn-danger btn-sm">Güvenli Çıkış</a>
         </div>
     </header>
     <div class="container-fluid">
@@ -26,7 +26,7 @@
                             <a class="nav-link" href="#">Yöneticiler</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Üyeler</a>
+                            <a class="nav-link" href="@Url.Action("Index", "Member")">Üyeler</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Başlıklar</a>

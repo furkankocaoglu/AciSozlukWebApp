@@ -130,7 +130,10 @@
     <Compile Include="Areas\ManagerPanel\Controllers\CategoryController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\HomeController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\ManagerLoginController.cs" />
+    <Compile Include="Areas\ManagerPanel\Controllers\MemberController.cs" />
     <Compile Include="Areas\ManagerPanel\ManagerPanelAreaRegistration.cs" />
+    <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\HomePageMemberController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -160,6 +163,7 @@
     <Content Include="Areas\ManagerPanel\Views\Category\Create.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\Category\Edit.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\Category\Deleted.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Member\Index.cshtml" />
     <None Include="packages.config" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.css.map" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.min.css.map" />
@@ -183,6 +187,9 @@
     <Content Include="Source\bootstrap-5.3.7-dist\js\bootstrap.esm.min.js.map" />
     <Content Include="Source\bootstrap-5.3.7-dist\js\bootstrap.js.map" />
     <Content Include="Source\bootstrap-5.3.7-dist\js\bootstrap.min.js.map" />
+    <Content Include="Views\Sharedd\_LayoutPage1.cshtml" />
+    <Content Include="Views\HomePageMember\Create.cshtml" />
+    <Content Include="Views\Default\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -193,7 +200,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\ManagerPanel\Data\" />
-    <Folder Include="Controllers\" />
+    <Folder Include="Assets\MemberImages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

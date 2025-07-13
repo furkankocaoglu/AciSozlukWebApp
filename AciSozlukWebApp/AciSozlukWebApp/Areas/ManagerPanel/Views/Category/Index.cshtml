@@ -3,12 +3,7 @@
     ViewBag.Title = "Index";
     Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
 }
-@if (TempData["mesaj"] != null)
-{
-    <div class="alert alert-warning">
-        @TempData["mesaj"]
-    </div>
-}
+
 <div class="container mt-5">
     <div class="card">
         <div class="card-header">
@@ -17,8 +12,19 @@
             </div>
             <div class="float-end">
                 <a href="@Url.Action("Create","Category")" style="text-decoration:none">Yeni Ekle</a>
-                <a href="@Url.Action("Deleted","Category")"style="text-decoration:none">Silinenlere Git</a>
+                <a href="@Url.Action("Deleted","Category")" style="text-decoration:none">Silinenlere Git</a>
             </div>
+        </div>
+        <div class="mt-2 p-2">
+            @if (TempData["Mesaj"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["Mesaj"]
+                </div>
+            }
+        </div>
+        <div class="card-footer">
+            @Model.Count satır listeleniyor
         </div>
         <div class="card-body">
             <div class="table-responsive">
@@ -28,7 +34,6 @@
                             <th>ID</th>
                             <th>Kategori Adı</th>
                             <th>Oluşturma Tarihi</th>
-                            <th>Aktiflik Durumu</th>
                             <th>İşlem</th>
                         </tr>
                     </thead>
@@ -39,10 +44,9 @@
                                 <td>@category.ID</td>
                                 <td>@category.CategoryName</td>
                                 <td>@category.CreationTime</td>
-                                <td>@(category.IsActive ? "Aktif":"Pasif")</td>
                                 <td>
-                                    <a href="@Url.Action("Edit", "Category", new {id= category.ID})"style="text-decoration:none">Düzenle</a>
-                                    <a href="@Url.Action("Delete", "Category", new { id = category.ID })"style="text-decoration:none">Kaldır</a>
+                                    <a href="@Url.Action("Edit", "Category", new {id= category.ID})" style="text-decoration:none">Düzenle</a>
+                                    <a href="@Url.Action("Delete", "Category", new { id = category.ID })" style="text-decoration:none">Kaldır</a>
                                 </td>
 
                             </tr>

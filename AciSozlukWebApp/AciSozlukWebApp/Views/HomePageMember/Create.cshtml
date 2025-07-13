@@ -1,0 +1,68 @@
+﻿@model AciSozlukWebApp.Models.Member
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Sharedd/_LayoutPage1.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <div class="float-start">
+                <h3><strong>Üye Olma Sayfasına Hoşgeldiniz</strong></h3>
+            </div>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("Create", "HomePageMember", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                if (TempData["Mesaj"] != null)
+                {
+                    <div class="alert alert-danger">
+                        @TempData["Mesaj"]
+                    </div>
+                }
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <strong>Kullanıcı Adı</strong>
+                    </div>
+                    @Html.EditorFor(x => x.NickName, new { htmlAttributes = new { @class = "form-control", @id = "Name" } })
+                </div>
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <strong>Mail Adresi</strong>
+                    </div>
+                    @Html.EditorFor(x => x.Email, new { htmlAttributes = new { @class = "form-control", @id = "Name" } })
+                </div>
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <strong>Şifre</strong>
+                    </div>
+                    @Html.EditorFor(x => x.Password, new { htmlAttributes = new { @class = "form-control", @id = "Name" } })
+                </div>
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <strong>Doğum Tarihi</strong>
+                    </div>
+                    @Html.TextBoxFor(model => model.Birthday, new{@class = "form-control",type = "date", @id = "Birthday"})
+                    @Html.ValidationMessageFor(model => model.Birthday, "", new { @class = "text-danger" })
+                </div>
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <strong>Cinsiyet</strong>
+                    </div>
+                    @Html.DropDownListFor(x => x.Gender, (SelectList)ViewBag.CinsiyetSecim, "", new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x=> x.Gender, "", new { @class = "text-danger" })
+                </div>
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <strong>Resim</strong>
+                    </div>
+                    <input type="file" name="image" class="textbox" />
+                </div>
+
+                <button type="submit">Kayıt Ol</button>
+            }
+        </div>
+    </div>
+</div>
+
+

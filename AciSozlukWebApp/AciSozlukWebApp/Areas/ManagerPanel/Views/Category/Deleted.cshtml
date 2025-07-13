@@ -4,10 +4,10 @@
     Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
 }
 
-@if (TempData["mesaj"] != null)
+@if (TempData["Mesaj"] != null)
 {
     <div class="alert alert-warning">
-        @TempData["mesaj"]
+        @TempData["Mesaj"]
     </div>
 }
 <div class="container mt-5">
@@ -28,7 +28,6 @@
                             <th>ID</th>
                             <th>Kategori Adı</th>
                             <th>Oluşturma Tarihi</th>
-                            <th>Aktiflik Durumu</th>
                             <th>İşlem</th>
                         </tr>
                     </thead>
@@ -39,7 +38,6 @@
                                 <td>@category.ID</td>
                                 <td>@category.CategoryName</td>
                                 <td>@category.CreationTime</td>
-                                <td>@(category.IsActive ? "Aktif":"Pasif")</td>
                                 <td>
                                     <a href="@Url.Action("Back", "Category", new {id= category.ID})"style="text-decoration:none">Geri Getir</a>
                                 </td>

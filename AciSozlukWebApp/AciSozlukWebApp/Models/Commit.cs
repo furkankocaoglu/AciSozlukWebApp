@@ -24,9 +24,7 @@ namespace AciSozlukWebApp.Models
         [StringLength(300,ErrorMessage ="Yorum en fazla 300 karakter olabilir")]
         public string CommitWrite { get; set; }
 
-        public DateTime CreationTime { get; set; }=DateTime.Now;
-
-        
+        public DateTime CreationTime { get; set; }=DateTime.Now;       
         
     }
 }

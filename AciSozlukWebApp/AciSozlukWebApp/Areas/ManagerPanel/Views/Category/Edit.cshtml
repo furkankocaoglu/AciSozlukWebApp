@@ -12,14 +12,16 @@
         <div class="card-body">
             @using (Html.BeginForm())
             {
-                if (TempData["mesaj"] != null)
+                if (TempData["Mesaj"] != null)
                 {
                     <div class="alert alert-success">
-                        @TempData["mesaj"]
+                        @TempData["Mesaj"]
                     </div>
                 }
                 <div class="mb-3">
-                    <strong>Yeni Kategori Adı</strong>
+                    <div class="mb-2">
+                        <strong>Yeni Kategori Adı</strong>
+                    </div>
                     @Html.EditorFor(x => x.CategoryName, new { htmlAttributes = new { @class = "form-control", @id = "Name" } })
                 </div>
                 <button type="submit">Düzenle</button>

@@ -11,16 +11,16 @@
                 <h3><strong>Kategori Ekleme Sayfası</strong></h3>
             </div>
             <div class="float-end">
-                <a href="@Url.Action("Index","Category")" style="text-decoration:none">Geri Dön</a>
+                <a href="@Url.Action("Index","Category")" style="text-decoration:none">Kategori Listesine Dön</a>
             </div>
         </div>
         <div class="card-body">
             @using (Html.BeginForm())
             {
-                if (TempData["mesaj"] != null)
+                if (TempData["Mesaj"] != null)
                 {
                     <div class="alert alert-danger">
-                        @TempData["mesaj"]
+                        @TempData["Mesaj"]
                     </div>
                 }
                 <div class="mb-3">
