@@ -44,8 +44,10 @@
                                 <td>@member.NickName</td>
                                 <td>@member.Email</td>
                                 <td>@member.Gender</td>
-                                <td>@member.Birthday</td>
-                                <td>@member.Image</td>
+                                <td>@member.Birthday.ToShortDateString()</td>
+                                <td>
+                                    <img src="~/Assets/MemberImages/@member.Image" width="150" height="150" />
+                                </td>
                                 <td>@member.CreationTime</td>
                             </tr>
                         }

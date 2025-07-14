@@ -10,13 +10,17 @@
             <div class="float-start">
                 <h3><strong>Üye Olma Sayfasına Hoşgeldiniz</strong></h3>
             </div>
+            <div class="float-end">
+                <h3><strong>Zaten Üye Misiniz?<a href="@Url.Action("Index","MemberLogin",new {area="MemberPanel"})"style="text-decoration:none"> => </a></strong></h3>
+
+            </div>
         </div>
         <div class="card-body">
             @using (Html.BeginForm("Create", "HomePageMember", FormMethod.Post, new { enctype = "multipart/form-data" }))
             {
                 if (TempData["Mesaj"] != null)
                 {
-                    <div class="alert alert-danger">
+                    <div class="alert alert-success">
                         @TempData["Mesaj"]
                     </div>
                 }
@@ -24,40 +28,45 @@
                     <div class="mb-2">
                         <strong>Kullanıcı Adı</strong>
                     </div>
-                    @Html.EditorFor(x => x.NickName, new { htmlAttributes = new { @class = "form-control", @id = "Name" } })
+                    @Html.EditorFor(x => x.NickName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.NickName, "", new { @class = "text-danger" })
                 </div>
                 <div class="mb-3">
                     <div class="mb-2">
                         <strong>Mail Adresi</strong>
                     </div>
-                    @Html.EditorFor(x => x.Email, new { htmlAttributes = new { @class = "form-control", @id = "Name" } })
+                    @Html.EditorFor(x => x.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
                 </div>
                 <div class="mb-3">
                     <div class="mb-2">
+                        <div class="text-danger"> <p>hesap güvenliğiniz açısından şifrenizin diğer sitelerde kullandığınız şifrelerden farklı olmasını tavsiye ederiz.</p></div>
                         <strong>Şifre</strong>
                     </div>
-                    @Html.EditorFor(x => x.Password, new { htmlAttributes = new { @class = "form-control", @id = "Name" } })
+                    @Html.EditorFor(x => x.Password, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
                 </div>
                 <div class="mb-3">
                     <div class="mb-2">
                         <strong>Doğum Tarihi</strong>
                     </div>
-                    @Html.TextBoxFor(model => model.Birthday, new{@class = "form-control",type = "date", @id = "Birthday"})
+                    @Html.TextBoxFor(model => model.Birthday, new { @class = "form-control", type = "date", @id = "Birthday" })
                     @Html.ValidationMessageFor(model => model.Birthday, "", new { @class = "text-danger" })
                 </div>
                 <div class="mb-3">
                     <div class="mb-2">
                         <strong>Cinsiyet</strong>
                     </div>
-                    @Html.DropDownListFor(x => x.Gender, (SelectList)ViewBag.CinsiyetSecim, "", new { @class = "form-control" })
-                    @Html.ValidationMessageFor(x=> x.Gender, "", new { @class = "text-danger" })
+                    @Html.DropDownListFor(x => x.Gender, (SelectList)ViewBag.CinsiyetSecim, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.Gender, "", new { @class = "text-danger" })
                 </div>
                 <div class="mb-3">
                     <div class="mb-2">
-                        <strong>Resim</strong>
+                        <strong>Profil Resmi</strong>
                     </div>
                     <input type="file" name="image" class="textbox" />
                 </div>
+                <br/>
 
                 <button type="submit">Kayıt Ol</button>
             }

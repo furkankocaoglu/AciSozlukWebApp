@@ -29,6 +29,13 @@ namespace AciSozlukWebApp.Controllers
         [HttpPost]
         public ActionResult Create(Member Model, HttpPostedFileBase image)
         {
+            ViewBag.CinsiyetSecim = new SelectList(new List<string>
+            {
+                "Erkek",
+                "Kadın",
+                "Belirtmek İstemiyorum"
+            });
+            
             if (ModelState.IsValid)
             {
                 try

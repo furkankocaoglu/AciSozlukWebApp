@@ -1,5 +1,4 @@
-﻿@model AciSozlukWebApp.Models.ViewModels.ManagerLoginViewModel
-
+﻿@model AciSozlukWebApp.Models.ViewModels.MemberLoginViewModel
 @{
     Layout = null;
 }
@@ -9,7 +8,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>ManagerLogin</title>
+    <title>Index</title>
     <link href="~/Source/bootstrap-5.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -18,7 +17,7 @@
             <div class="col-md-6">
                 <div class="card">
                     <div class="card-header text-center bg-danger text-white">
-                        <h4><strong>Acı Sözlük Yönetim Ekranı</strong></h4>
+                        <h4><strong>Üye Girişi</strong></h4>
                     </div>
                     <div class="card-body">
                         <div class="text-center mb-5">
@@ -35,17 +34,17 @@
                                 </div>
                             }
                             <div class="mb-3">
-                                @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", placeholder = "Kullanıcı Adınız", id = "User" })
-                                @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+                                @Html.TextBoxFor(m => m.NickName, new { @class = "form-control", placeholder = "Kullanıcı Adınız", id = "User" })
+                                @Html.ValidationMessageFor(m => m.NickName, "", new { @class = "text-danger" })
                             </div>
                             <div class="mb-3">
                                 @Html.PasswordFor(m => m.Password, new { @class = "form-control", placeholder = "Şifreniz", id = "Password" })
                                 @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
                             </div>
-                            <br/>
-                                <div class="text-center">
-                                    <button type="submit" class="btn btn-danger">Giriş Yap</button>
-                                </div>                          
+                            <br />
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-danger">Oturumu Aç</button>
+                            </div>
                         }
                     </div>
                 </div>

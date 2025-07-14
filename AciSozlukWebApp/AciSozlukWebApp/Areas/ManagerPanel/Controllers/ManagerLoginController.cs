@@ -32,12 +32,12 @@ namespace AciSozlukWebApp.Areas.ManagerPanel.Controllers
                     }
                     else
                     {
-                        TempData["mesaj"] = "Hesabınız askıya alınmıştır.";
+                        TempData["Mesaj"] = "Hesabınız askıya alınmıştır.";
                     }
                 }
                 else
                 {
-                    TempData["mesaj"] = "Kullanıcı Bulunamadı";
+                    TempData["Mesaj"] = "Kullanıcı Bulunamadı";
                 }
             }           
             return View();
