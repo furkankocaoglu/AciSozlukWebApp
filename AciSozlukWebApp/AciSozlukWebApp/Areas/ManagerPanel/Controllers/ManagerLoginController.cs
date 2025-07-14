@@ -37,7 +37,7 @@ namespace AciSozlukWebApp.Areas.ManagerPanel.Controllers
                 }
                 else
                 {
-                    TempData["Mesaj"] = "Kullanıcı Bulunamadı";
+                    TempData["Mesaj"] = "Yönetici Bulunamadı. Lütfen Bilgilerinizi Kontrol Edin";
                 }
             }           
             return View();

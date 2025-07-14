@@ -22,25 +22,24 @@ namespace AciSozlukWebApp.Areas.MemberPanel.Controllers
         {
             if (ModelState.IsValid)
             {
-                Member m = db.Members.FirstOrDefault(x=>x.NickName == model.NickName && x.Password == model.Password);
-                if(m == null)
+                Member m = db.Members.FirstOrDefault(x => x.NickName == model.NickName && x.Password == model.Password);
+                if(m != null)
                 {
-                    TempData["Mesaj"] = "Üye Bulunamadı";
-                }
-                else if(!m.IsActive)
-                {
-                    TempData["Mesaj"] = "Hesabınız Askıya Alınmıştır";
+                    if(m.IsActive)
+                    {
+                        Session["MemberSession"] = m;
+                        return RedirectToAction("Index", "Default");
+                    }
+                    else 
+                    {
+                        TempData["Mesaj"] = "Hesabınız Askıya Alınmıştır";
+                    }
                 }
                 else
                 {
-                    Session["MemberSession"] = m;
-                    return RedirectToAction("Index","Default");
+                    TempData["Mesaj"] = "Üye Bulunamadı. Lütfen Bilgilerinizi Kontrol Edin";
                 }
-            }
-            else
-            {
-                TempData["Mesaj"] = "Üye Bulunamadı. Lütfen bilgilerinizi kontrol edin";
-            }
+            }        
             return View();
         }
         public ActionResult Logout()

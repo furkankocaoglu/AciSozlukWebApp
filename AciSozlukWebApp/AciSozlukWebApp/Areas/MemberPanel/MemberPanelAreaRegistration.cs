@@ -2,23 +2,24 @@
 
 namespace AciSozlukWebApp.Areas.MemberPanel
 {
-    public class MemberPanelAreaRegistration : AreaRegistration 
+    public class MemberPanelAreaRegistration : AreaRegistration
     {
-        public override string AreaName 
+        public override string AreaName
         {
-            get 
+            get
             {
                 return "MemberPanel";
             }
         }
 
-        public override void RegisterArea(AreaRegistrationContext context) 
+        public override void RegisterArea(AreaRegistrationContext context)
         {
             context.MapRoute(
-                "MemberPanel_default",
-                "MemberPanel/{controller}/{action}/{id}",
-                new { action = "Index", id = UrlParameter.Optional }
-            );
+    "MemberPanel_default",
+    "MemberPanel/{controller}/{action}/{id}",
+    new { action = "Index", id = UrlParameter.Optional },
+    namespaces: new[] { "AciSozlukWebApp.Areas.MemberPanel.Controllers" }
+);
         }
     }
 }

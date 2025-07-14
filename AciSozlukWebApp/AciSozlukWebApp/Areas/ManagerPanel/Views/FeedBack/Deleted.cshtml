@@ -1,0 +1,47 @@
+﻿@model List<AciSozlukWebApp.Models.FeedBack>
+@{
+    ViewBag.Title = "Deleted";
+    Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <div class="float-start">
+                <h3><strong>Çözülenler</strong></h3>
+            </div>
+            <div class="float-end">
+                <a href="@Url.Action("Index","FeedBack")" style="text-decoration:none">Geri Dön</a>
+            </div>
+        </div>
+        <div class="card-footer">
+            @Model.Count Adet Listeleniyor
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Konu</th>
+                            <th>Detay</th>
+                            <th>Oluşturma Tarihi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var feedback in Model)
+                        {
+                            <tr>
+                                <th>@feedback.ID</th>
+                                <th>@feedback.Subject</th>
+                                <th>@feedback.Description</th>
+                                <th>@feedback.CreationTime</th>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

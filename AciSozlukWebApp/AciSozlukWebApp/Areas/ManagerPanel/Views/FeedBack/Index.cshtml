@@ -1,0 +1,58 @@
+﻿@model List<AciSozlukWebApp.Models.FeedBack>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <div class="float-start">
+                <h3><strong>Geri Bildirim Listesi</strong></h3>
+            </div>
+            <div class="float-end">
+                <a href="@Url.Action("Deleted","FeedBack")" style="text-decoration:none">Değerlendirilenlere Git</a>
+            </div>
+        </div>
+        <div class="mt-2 p-2">
+            @if (TempData["Mesaj"] != null)
+            {
+                <div class="alert alert-success">
+                    @TempData["Mesaj"]
+                </div>
+            }
+        </div>
+        <div class="card-footer">
+            @Model.Count Adet Listeleniyor
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Konu</th>
+                            <th>Detay</th>
+                            <th>Oluşturma Tarihi</th>
+                            <th>İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var feedback in Model)
+                        {
+                            <tr>
+                                <th>@feedback.ID</th>
+                                <th>@feedback.Subject</th>
+                                <th>@feedback.Description</th>
+                                <th>@feedback.CreationTime</th>
+                                <th>
+                                    <a href="@Url.Action("Solved","FeedBack", new {id = feedback.ID})" class="solvedButton">Değerlendirildi Olarak İşaretle</a>
+                                </th>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

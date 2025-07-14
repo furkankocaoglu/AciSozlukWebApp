@@ -129,6 +129,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\CategoryController.cs" />
+    <Compile Include="Areas\ManagerPanel\Controllers\FeedBackController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\HomeController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\ManagerLoginController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\MemberController.cs" />
@@ -136,7 +137,8 @@
     <Compile Include="Areas\MemberPanel\Controllers\DefaultController.cs" />
     <Compile Include="Areas\MemberPanel\Controllers\MemberLoginController.cs" />
     <Compile Include="Areas\MemberPanel\MemberPanelAreaRegistration.cs" />
-    <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\FeedBackController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HomePageMemberController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -173,6 +175,8 @@
     <Content Include="Areas\MemberPanel\Views\MemberLogin\Index.cshtml" />
     <Content Include="Areas\MemberPanel\Views\Shared\_LayoutPage1.cshtml" />
     <Content Include="Areas\MemberPanel\Views\Default\Index.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\FeedBack\Index.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\FeedBack\Deleted.cshtml" />
     <None Include="packages.config" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.css.map" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.min.css.map" />
@@ -198,7 +202,8 @@
     <Content Include="Source\bootstrap-5.3.7-dist\js\bootstrap.min.js.map" />
     <Content Include="Views\Sharedd\_LayoutPage1.cshtml" />
     <Content Include="Views\HomePageMember\Create.cshtml" />
-    <Content Include="Views\Default\Index.cshtml" />
+    <Content Include="Views\FeedBack\Create.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
