@@ -4,17 +4,8 @@
     Layout = "~/Views/Sharedd/_LayoutPage1.cshtml";
 }
 
-<div class="container mt-5">
-    <div class="card">
-        <div class="card-header">
-            <div class="float-start">
-                <h3><strong>Üye Olma Sayfasına Hoşgeldiniz</strong></h3>
-            </div>
-            <div class="float-end">
-                <h3><strong>Zaten Üye Misiniz?<a href="@Url.Action("Index","MemberLogin",new {area="MemberPanel"})"style="text-decoration:none"> => </a></strong></h3>
-
-            </div>
-        </div>
+<div class="container mt-1">
+    <div class="card shadow">
         <div class="card-body">
             @using (Html.BeginForm("Create", "HomePageMember", FormMethod.Post, new { enctype = "multipart/form-data" }))
             {
@@ -24,51 +15,46 @@
                         @TempData["Mesaj"]
                     </div>
                 }
-                <div class="mb-3">
-                    <div class="mb-2">
-                        <strong>Kullanıcı Adı</strong>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label"><strong>Kullanıcı Adı</strong></label>
+                            @Html.EditorFor(x => x.NickName, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.NickName, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label"><strong>Mail Adresi</strong></label>
+                            @Html.EditorFor(x => x.Email, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label"><strong>Şifre</strong></label>
+                            @Html.PasswordFor(x => x.Password, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                            <small class="text-muted">Şifrenizin diğer sitelerle aynı olmamasına dikkat edin.</small>
+                        </div>
                     </div>
-                    @Html.EditorFor(x => x.NickName, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.NickName, "", new { @class = "text-danger" })
-                </div>
-                <div class="mb-3">
-                    <div class="mb-2">
-                        <strong>Mail Adresi</strong>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label"><strong>Doğum Tarihi</strong></label>
+                            @Html.TextBoxFor(model => model.Birthday, new { @class = "form-control", type = "date" })
+                            @Html.ValidationMessageFor(model => model.Birthday, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label"><strong>Cinsiyet</strong></label>
+                            @Html.DropDownListFor(x => x.Gender, (SelectList)ViewBag.CinsiyetSecim, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.Gender, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label"><strong>*Profil Resmi</strong></label>
+                            <input type="file" name="image" class="form-control" />
+                            <small class="text-muted">(*) Zorunlu değildir.</small>
+                        </div>
                     </div>
-                    @Html.EditorFor(x => x.Email, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
                 </div>
-                <div class="mb-3">
-                    <div class="mb-2">
-                        <div class="text-danger"> <p>hesap güvenliğiniz açısından şifrenizin diğer sitelerde kullandığınız şifrelerden farklı olmasını tavsiye ederiz.</p></div>
-                        <strong>Şifre</strong>
-                    </div>
-                    @Html.EditorFor(x => x.Password, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                <div class="text-center mt-4">
+                    <button type="submit" class="btn btn-danger">Kayıt Ol</button>
                 </div>
-                <div class="mb-3">
-                    <div class="mb-2">
-                        <strong>Doğum Tarihi</strong>
-                    </div>
-                    @Html.TextBoxFor(model => model.Birthday, new { @class = "form-control", type = "date", @id = "Birthday" })
-                    @Html.ValidationMessageFor(model => model.Birthday, "", new { @class = "text-danger" })
-                </div>
-                <div class="mb-3">
-                    <div class="mb-2">
-                        <strong>Cinsiyet</strong>
-                    </div>
-                    @Html.DropDownListFor(x => x.Gender, (SelectList)ViewBag.CinsiyetSecim, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(x => x.Gender, "", new { @class = "text-danger" })
-                </div>
-                <div class="mb-3">
-                    <div class="mb-2">
-                        <strong>Profil Resmi</strong>
-                    </div>
-                    <input type="file" name="image" class="textbox" />
-                </div>
-                <br/>
-
-                <button type="submit">Kayıt Ol</button>
             }
         </div>
     </div>

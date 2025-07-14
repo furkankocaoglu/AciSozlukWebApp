@@ -1,0 +1,55 @@
+﻿@model AciSozlukWebApp.Models.ViewModels.MemberLoginViewModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Sharedd/_LayoutPage1.cshtml";
+}
+
+<div class="container mt-1">
+    <div class="row justify-content-center">
+        <div class="col-md-5">
+            <div class="card shadow">
+                <div class="card-body">
+                    @using (Html.BeginForm())
+                    {
+                        @Html.AntiForgeryToken()
+
+                        if (TempData["Mesaj"] != null)
+                        {
+                            <div class="alert alert-warning text-center">
+                                @TempData["Mesaj"]
+                            </div>
+                        }
+
+                        <div class="mb-3">
+                            <label class="form-label"><strong>Kullanıcı Adınız</strong></label>
+                            @Html.TextBoxFor(m => m.NickName, new
+                            {
+                                @class = "form-control",
+                                placeholder = "Kullanıcı Adınız",
+                                id = "User"
+                            })
+                            @Html.ValidationMessageFor(m => m.NickName, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label"><strong>Şifreniz</strong></label>
+                            @Html.PasswordFor(m => m.Password, new
+                            {
+                                @class = "form-control",
+                                placeholder = "Şifreniz",
+                                id = "Password"
+                            })
+                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-danger">Oturumu Aç</button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

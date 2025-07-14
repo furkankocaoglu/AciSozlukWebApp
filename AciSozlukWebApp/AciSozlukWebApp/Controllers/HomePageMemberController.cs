@@ -1,4 +1,5 @@
 ﻿using AciSozlukWebApp.Models;
+using AciSozlukWebApp.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,7 +11,7 @@ namespace AciSozlukWebApp.Controllers
 {
     public class HomePageMemberController : Controller
     {
-        AciSozlukDB db= new AciSozlukDB();  
+        AciSozlukDB db = new AciSozlukDB();
         public ActionResult Index()
         {
             return View();
@@ -27,7 +28,7 @@ namespace AciSozlukWebApp.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Create(Member Model, HttpPostedFileBase image)
+        public ActionResult Create(Member model, HttpPostedFileBase image)
         {
             ViewBag.CinsiyetSecim = new SelectList(new List<string>
             {
@@ -35,7 +36,7 @@ namespace AciSozlukWebApp.Controllers
                 "Kadın",
                 "Belirtmek İstemiyorum"
             });
-            
+
             if (ModelState.IsValid)
             {
                 try
@@ -49,7 +50,7 @@ namespace AciSozlukWebApp.Controllers
                         if (extension == ".jpg" || extension == ".jpeg" || extension == ".png")
                         {
                             string name = Guid.NewGuid().ToString() + extension;
-                            Model.Image = name;
+                            model.Image = name;
                             image.SaveAs(Server.MapPath("~/Assets/MemberImages/" + name));
                         }
                         else
@@ -60,14 +61,23 @@ namespace AciSozlukWebApp.Controllers
                     }
                     else
                     {
-                        Model.Image = "none.jpg";
+                        model.Image = "none.jpg";
                     }
                     if (isvalidimage)
                     {
-                        db.Members.Add(Model);
-                        db.SaveChanges();
-                        TempData["Mesaj"] = "Üyeliğiniz başarılı bir şekilde oluşturuldu";
-                        return RedirectToAction("Create", "HomePageMember");
+                        int count = db.Members.Count(x => x.NickName == model.NickName || x.Email == model.Email);
+
+                        if (count == 0)
+                        {
+                            db.Members.Add(model);
+                            db.SaveChanges();
+                            TempData["Mesaj"] = "Üyeliğiniz başarılı bir şekilde oluşturuldu";
+                            return RedirectToAction("Create", "HomePageMember");
+                        }
+                        else
+                        {
+                            TempData["Mesaj"] = "Bu bilgilerle daha önce oluşturulan üyelik bulunmaktadır.";
+                        }
                     }
                 }
                 catch
@@ -75,7 +85,40 @@ namespace AciSozlukWebApp.Controllers
                     TempData["Mesaj"] = "Kayıt esnasında hata oluştu";
                 }
             }
-            return View(Model);
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Index(MemberLoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                Member m = db.Members.FirstOrDefault(x => x.NickName == model.NickName && x.Password == model.Password);
+                if (m != null)
+                {
+                    if (m.IsActive)
+                    {
+                        Session["MemberSession"] = m;
+                        return RedirectToAction("Index", "Default", new { area = "MemberPanel" });
+                    }
+                    else
+                    {
+                        TempData["Mesaj"] = "Hesabınız Askıya Alınmıştır";
+                    }
+                }
+                else
+                {
+                    TempData["Mesaj"] = "Üye Bulunamadı. Lütfen Bilgilerinizi Kontrol Edin";
+                }
+            }
+            return View(model);
+        }
+        public ActionResult LogOut()
+        {
+            Session["MemberSession"] = null;
+
+            return RedirectToAction("Index", "HomePageMember");
         }
     }
 }

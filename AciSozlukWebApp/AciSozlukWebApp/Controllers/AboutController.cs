@@ -4,11 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace AciSozlukWebApp.Areas.MemberPanel.Controllers
+namespace AciSozlukWebApp.Controllers
 {
-    public class DefaultController : Controller
+    public class AboutController : Controller
     {
-        
+        // GET: About
         public ActionResult Index()
         {
             return View();

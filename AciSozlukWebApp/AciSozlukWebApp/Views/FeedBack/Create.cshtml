@@ -4,22 +4,14 @@
     Layout = "~/Views/Sharedd/_LayoutPage1.cshtml";
 }
 
-<div class="container mt-5">
-    <div class="card">
-        <div class="card-header">
-            <div class="float-start">
-                <h3><strong>Geri Bildirim İlet</strong></h3>
-            </div>
-            <div class="float-end">
-                <a href="@Url.Action("Index","Home")" style="text-decoration:none">Ana Sayfaya Dön</a>
-            </div>
-        </div>
+<div class="container mt-1">
+    <div class="card shadow">
         <div class="card-body">
             @using (Html.BeginForm())
             {
                 if (TempData["Mesaj"] != null)
                 {
-                    <div class="alert alert-success">
+                    <div class="alert alert-warning">
                         @TempData["Mesaj"]
                     </div>
                 }
@@ -27,15 +19,15 @@
                     <div class="mb-2">
                         <strong>Konu</strong>
                     </div>
-                    @Html.EditorFor(x => x.Subject, new { htmlAttributes = new { @class = "form-control", @id = "Subject" } })
+                    @Html.EditorFor(x => x.Subject, new { htmlAttributes = new { @class = "form-control", @id = "Subject", @placeholder = "Konu belirtin." } })
                 </div>
                 <div class="mb-3">
                     <div class="mb-2">
                         <strong>Detay</strong>
                     </div>
-                    @Html.EditorFor(x => x.Description, new { htmlAttributes = new { @class = "form-control", @id = "Description" } })
+                    @Html.TextAreaFor(x => x.Description, new { @class = "form-control", @id = "Description", style = "height:200px;", @placeholder = "Geliştirme isteklerinizi veya düşüncelerinizi buraya belirtebilirsiniz.." })
                 </div>
-                <button type="submit">İlet</button>
+                <button type="submit" class="btn btn-danger">İlet</button>
             }
         </div>
     </div>

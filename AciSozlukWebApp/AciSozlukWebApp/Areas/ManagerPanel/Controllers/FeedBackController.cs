@@ -12,7 +12,8 @@ namespace AciSozlukWebApp.Areas.ManagerPanel.Controllers
         AciSozlukDB db= new AciSozlukDB();
         public ActionResult Index()
         {
-            return View(db.FeedBacks.Where(x => x.IsActive==true).ToList());        }
+            return View(db.FeedBacks.Where(x => x.IsActive == true).ToList());
+        }
         public ActionResult Deleted()
         {
             return View(db.FeedBacks.Where(x => x.IsActive == false).ToList());
@@ -28,7 +29,7 @@ namespace AciSozlukWebApp.Areas.ManagerPanel.Controllers
                     f.Deleted = true;
                     f.IsActive = false;
                     db.SaveChanges();
-                    TempData["Mesaj"] = "Değerlendirildi";
+                    TempData["Mesaj"] = "Değerlendirildi.";
                 }
             }
             return RedirectToAction("Index", "FeedBack");

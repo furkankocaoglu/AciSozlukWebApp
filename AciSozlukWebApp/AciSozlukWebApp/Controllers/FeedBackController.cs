@@ -27,12 +27,12 @@ namespace AciSozlukWebApp.Controllers
             {
                 db.FeedBacks.Add(Model);
                 db.SaveChanges();
-                TempData["Mesaj"] = "Geri Bildiriminiz İletilmiştir. Görüşlerinizi Paylaştığınız İçin Teşekkür Ederiz.";
+                TempData["Mesaj"] = "Geri bildiriminiz iletilmiştir. Görüşlerinizi paylaştığınız için teşekkür ederiz!";
                 return RedirectToAction("Create","FeedBack");
             }
             else
             {
-                TempData["Mesaj"] = "Bir Hata Oluştu. İlgili Alanları Eksiksiz Doldurun.";
+                TempData["Mesaj"] = "Bir hata oluştu. İlgili alanları eksiksiz doldurun.";
             }
             return View(Model);
         }
