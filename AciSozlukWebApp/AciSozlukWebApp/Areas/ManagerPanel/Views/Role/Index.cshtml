@@ -1,0 +1,42 @@
+﻿@model List<AciSozlukWebApp.Models.MemberRole>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <div class="float-start">
+                <h3><strong>Üye Rol-Yetki İşlemleri</strong></h3>
+            </div>
+            <div class="float-end">
+                <a href="@Url.Action("Create","Role")" style="text-decoration:none">Rol Ekle</a>
+                <a href="@Url.Action("Sign","Role")" style="text-decoration:none">Yönetici Rolleri</a>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Rol Adı</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var memberrole in Model)
+
+                        {
+                            <tr>
+                                <td>@memberrole.ID</td>
+                                <td>@memberrole.Name</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

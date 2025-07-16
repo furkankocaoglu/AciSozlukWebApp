@@ -11,11 +11,12 @@ namespace AciSozlukWebApp.Models
             : base("name=AciSozlukDB1")
         {
         }
-        public DbSet <Manager> Managers { get; set; }
+        public DbSet<Manager> Managers { get; set; }
         public DbSet<ManagerRole> ManagerRoles { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Entry> Entries { get; set; }
         public DbSet<Member> Members { get; set; }
+        public DbSet<MemberRole> MemberRoles { get; set; }
         public DbSet<Title> Titles { get; set; }
         public DbSet<Commit> Commits { get; set; }
         public DbSet<Like> Likes { get; set; }

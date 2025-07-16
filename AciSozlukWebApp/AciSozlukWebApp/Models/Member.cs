@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -8,6 +9,9 @@ namespace AciSozlukWebApp.Models
 {
     public class Member:Entity
     {
+        public int MemberRole_ID {  get; set; }
+        [ForeignKey("MemberRole_ID")]
+        public virtual MemberRole MemberRole { get; set; }
 
         [Display(Name ="KullanıcıAdı")]
         [Required(ErrorMessage ="Bu alan boş bırakılamaz")]

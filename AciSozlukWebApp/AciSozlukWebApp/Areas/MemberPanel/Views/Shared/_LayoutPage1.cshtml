@@ -1,4 +1,14 @@
-﻿<!DOCTYPE html>
+﻿@using AciSozlukWebApp.Models;
+@{
+    Member m = new Member();
+    if (Session["MemberSession"] != null)
+    {
+        m = Session["MemberSession"] as Member;
+    }
+}
+
+
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -6,6 +16,7 @@
     <title>@ViewBag.Title</title>
 </head>
 <body>
+    <a href="#" style="color:black;text-decoration:none"><strong>Rolüm =></strong> @m.MemberRole.Name</a>&nbsp;
     <a href="@Url.Action("Logout", "HomePageMember", new { area = "" })">Çıkış</a>
     <div>
         @RenderBody()

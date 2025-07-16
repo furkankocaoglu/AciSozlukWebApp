@@ -69,6 +69,13 @@ namespace AciSozlukWebApp.Controllers
 
                         if (count == 0)
                         {
+                            MemberRole caylakRol = db.MemberRoles.FirstOrDefault(x => x.Name == "Çaylak");
+
+                            if(caylakRol != null)
+                            {
+                                model.MemberRole_ID = caylakRol.ID;
+                            }
+
                             db.Members.Add(model);
                             db.SaveChanges();
                             TempData["Mesaj"] = "Üyeliğiniz başarılı bir şekilde oluşturuldu";
@@ -100,7 +107,7 @@ namespace AciSozlukWebApp.Controllers
                     if (m.IsActive)
                     {
                         Session["MemberSession"] = m;
-                        return RedirectToAction("Index", "Default", new { area = "MemberPanel" });
+                        return RedirectToAction("Index","Home");
                     }
                     else
                     {

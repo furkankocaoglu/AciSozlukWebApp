@@ -133,6 +133,7 @@
     <Compile Include="Areas\ManagerPanel\Controllers\HomeController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\ManagerLoginController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\MemberController.cs" />
+    <Compile Include="Areas\ManagerPanel\Controllers\RoleController.cs" />
     <Compile Include="Areas\ManagerPanel\ManagerPanelAreaRegistration.cs" />
     <Compile Include="Areas\MemberPanel\Controllers\DefaultController.cs" />
     <Compile Include="Areas\MemberPanel\MemberPanelAreaRegistration.cs" />
@@ -156,6 +157,7 @@
     <Compile Include="Models\Manager.cs" />
     <Compile Include="Models\ManagerRole.cs" />
     <Compile Include="Models\Member.cs" />
+    <Compile Include="Models\MemberRole.cs" />
     <Compile Include="Models\Report.cs" />
     <Compile Include="Models\Title.cs" />
     <Compile Include="Models\ViewModels\ManagerLoginViewModel.cs" />
@@ -178,6 +180,10 @@
     <Content Include="Areas\MemberPanel\Views\Default\Index.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\FeedBack\Index.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\FeedBack\Deleted.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Role\Index.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Role\Create.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Role\Sign.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Role\Constitute.cshtml" />
     <None Include="packages.config" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.css.map" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.min.css.map" />

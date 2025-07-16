@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <title>Acı Sözlük - Türkiye'nin Sözlük Platformu</title>
     <link href="~/Source/bootstrap-5.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="d-flex flex-column min-vh-100">
@@ -12,17 +12,30 @@
             <a class="navbar-brand d-flex align-items-center" href="@Url.Action("Index", "Home")">
                 <img src="~/Areas/ManagerPanel/Assets/images/AciBiber.jpg"
                      style="height: 50px; width: 70px; margin-right: 10px;" />
-                <span style="font-size: 20px; color:red ">Acı Sözlük</span>
+                <span style="font-size: 20px; color:red">Acı Sözlük</span>
             </a>
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a href="@Url.Action("Index", "HomePageMember")" class="nav-link">Üye Girişi</a>
-                </li>
-                <li class="nav-item">
-                    <a href="@Url.Action("Create", "HomePageMember")" class="nav-link">Kaydol</a>
-                </li>
-
-            </ul>
+            @if (Session["MemberSession"] != null)
+            {
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a href="@Url.Action("LogOut", "HomePageMember")" class="nav-link">Çıkış Yap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="@Url.Action("Index", "Default" ,new {area="MemberPanel"})" class="nav-link">Profile Git</a>
+                    </li>
+                </ul>
+            }
+            else
+            {
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a href="@Url.Action("Index", "HomePageMember")" class="nav-link">Üye Girişi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="@Url.Action("Create", "HomePageMember")" class="nav-link">Kaydol</a>
+                    </li>
+                </ul>
+            }
         </div>
     </nav>
     <hr />
@@ -38,10 +51,8 @@
             <a href="@Url.Action("Create", "FeedBack")" class="nav-link p-0 m-0">Geri Bildirim</a>
             <a href="@Url.Action("Index", "About")" class="nav-link p-0 m-0">Hakkımızda</a>
             <a href="@Url.Action("Index", "Contact")" class="nav-link p-0 m-0">İletişim</a>
-
         </div>
     </footer>
-
     <script src="~/Source/bootstrap-5.3.7-dist/js/bootstrap.min.js"></script>
     <script src="~/Source/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
 </body>

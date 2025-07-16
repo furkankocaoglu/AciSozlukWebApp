@@ -1,0 +1,42 @@
+﻿@model List<AciSozlukWebApp.Models.ManagerRole>
+@{
+    ViewBag.Title = "Sign";
+    Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <div class="float-start">
+                <h3><strong>Yönetici Rolleri</strong></h3>
+            </div>
+            <div class="float-end">
+                <a href="@Url.Action("Index","Role")" style="text-decoration:none">Üye Rollerine Dön</a>
+                <a href="@Url.Action("Constitute","Role")" style="text-decoration:none">Yeni Yönetici Rolü Ekle</a>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class=" table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Rol Adı</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var ManagerRole in Model)
+
+                        {
+                            <tr>
+                                <td>@ManagerRole.ID</td>
+                                <td>@ManagerRole.Name</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

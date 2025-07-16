@@ -11,7 +11,6 @@
         {
             AutomaticMigrationsEnabled = true;
             AutomaticMigrationDataLossAllowed = true;
-
         }
 
         protected override void Seed(AciSozlukWebApp.Models.AciSozlukDB context)

@@ -3,39 +3,119 @@
   "WorkspaceRootPath": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\areas\\managerpanel\\controllers\\managerlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\controllers\\managerlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\views\\sharedd\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\views\\sharedd\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\areas\\managerpanel\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\managerlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\managerlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\areas\\managerpanel\\views\\role\\constitute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\role\\constitute.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\role\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\areas\\managerpanel\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\member\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\member\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\areas\\managerpanel\\views\\feedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\feedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\areas\\managerpanel\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\role\\sign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\role\\sign.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\areas\\managerpanel\\views\\category\\deleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\category\\deleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\areas\\managerpanel\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\views\\about\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\memberrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\memberrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\managerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\managerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\views\\menu\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\memberpanel\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\memberpanel\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\memberpanel\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\memberpanel\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\controllers\\homepagemembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\controllers\\homepagemembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\views\\homepagemember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\views\\homepagemember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\views\\sharedd\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\views\\sharedd\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\views\\homepagemember\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\views\\homepagemember\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\views\\homepagemember\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -43,164 +123,8 @@
       "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\views\\feedback\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\feedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\feedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\controllers\\aboutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\member\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\member\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\managerlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\managerlogin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|c:\\users\\kocao\\source\\repos\\acisozlukwebapp\\acisozlukwebapp\\areas\\managerpanel\\controllers\\managerlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\controllers\\managerlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\memberpanel\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\memberpanel\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\memberpanel\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\memberpanel\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\memberpanel\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\memberpanel\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\category\\deleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\category\\deleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\controllers\\feedbackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\feedback\\deleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\feedback\\deleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\memberpanel\\memberpanelarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\memberpanel\\memberpanelarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\managerpanelarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\managerpanelarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\areas\\managerpanel\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\areas\\managerpanel\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\viewmodels\\memberloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\viewmodels\\memberloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\viewmodels\\managerloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\viewmodels\\managerloginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\commit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\commit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\managerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\managerrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\like.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\entry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\models\\acisozlukdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\models\\acisozlukdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\acisozlukwebapp\\views\\homepagemember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{513047BA-F8C2-48DD-8EF4-138BC554A71E}|AciSozlukWebApp\\AciSozlukWebApp.csproj|solutionrelative:acisozlukwebapp\\views\\homepagemember\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -210,245 +134,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\Contact\\Index.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\Contact\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\Contact\\Index.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Views\\Contact\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T23:32:16.37Z",
+              "WhenOpened": "2025-07-16T02:47:14.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ContactController.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Controllers\\ContactController.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Controllers\\ContactController.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Controllers\\ContactController.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Controllers\\ContactController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T23:32:09.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\About\\Index.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\About\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\About\\Index.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Views\\About\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAKAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\FeedBack\\Index.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\FeedBack\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\FeedBack\\Index.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\FeedBack\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T23:20:42.793Z",
+              "WhenOpened": "2025-07-16T02:42:55.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AboutController.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Controllers\\AboutController.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Controllers\\AboutController.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Controllers\\AboutController.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Controllers\\AboutController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T23:20:32.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\HomePageMember\\Create.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\HomePageMember\\Create.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\HomePageMember\\Create.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Views\\HomePageMember\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABHAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T23:10:13.107Z",
+              "WhenOpened": "2025-07-16T02:42:48.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\HomePageMember\\Index.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\HomePageMember\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\HomePageMember\\Index.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Views\\HomePageMember\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Index.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T23:28:05.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\Menu\\Index.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\Menu\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\Menu\\Index.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Views\\Menu\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T22:35:15.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Controllers\\MenuController.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Controllers\\MenuController.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Controllers\\MenuController.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Controllers\\MenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T20:54:40.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_LayoutPage1.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\Sharedd\\_LayoutPage1.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\Sharedd\\_LayoutPage1.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\Sharedd\\_LayoutPage1.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Views\\Sharedd\\_LayoutPage1.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-13T02:43:15.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T01:26:13.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T01:26:04.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\FeedBack\\Index.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\FeedBack\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\FeedBack\\Index.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\FeedBack\\Index.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T01:40:11.812Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomePageMemberController.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Controllers\\HomePageMemberController.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Controllers\\HomePageMemberController.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Controllers\\HomePageMemberController.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Controllers\\HomePageMemberController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwEMAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T02:41:40.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBsAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T01:46:52.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\FeedBack\\Create.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\FeedBack\\Create.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\FeedBack\\Create.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Views\\FeedBack\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T01:08:56.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "web.config",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\web.config",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\web.config",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\web.config",
-              "RelativeToolTip": "AciSozlukWebApp\\Views\\web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-07-14T04:38:59.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Member\\Index.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Member\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Member\\Index.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Member\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-13T02:13:43.23Z",
+              "WhenOpened": "2025-07-16T02:41:58.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "Deleted.cshtml",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Deleted.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Deleted.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Deleted.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Deleted.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T02:32:53.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Index.cshtml",
               "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Index.cshtml",
               "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T01:46:56.533Z",
+              "WhenOpened": "2025-07-16T02:32:50.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
+              "Title": "Constitute.cshtml",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Constitute.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Constitute.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Constitute.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Constitute.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T02:26:29.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Sign.cshtml",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Sign.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Sign.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Sign.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Sign.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-16T02:14:42.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\RoleController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwC4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:11:12.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManagerLoginController.cs",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\ManagerLoginController.cs",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\ManagerLoginController.cs",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\ManagerLoginController.cs",
+              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\ManagerLoginController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:10:57.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Home\\Index.cshtml",
@@ -456,72 +276,159 @@
               "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-12T01:26:49.291Z",
+              "WhenOpened": "2025-07-15T04:27:53.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FeedBackController.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Controllers\\FeedBackController.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Controllers\\FeedBackController.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Controllers\\FeedBackController.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Controllers\\FeedBackController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T01:03:17.41Z",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Member\\Index.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Member\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Member\\Index.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Member\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T04:54:52.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\ManagerLogin\\Index.cshtml",
               "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\ManagerLogin\\Index.cshtml",
               "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\ManagerLogin\\Index.cshtml",
               "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\ManagerLogin\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-12T03:11:39.378Z",
+              "WhenOpened": "2025-07-15T04:40:03.284Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_LayoutPage1.cshtml",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T04:37:33.803Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:28:25.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T04:27:29.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MemberRole.cs",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\MemberRole.cs",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\MemberRole.cs",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\MemberRole.cs",
+              "RelativeToolTip": "AciSozlukWebApp\\Models\\MemberRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T04:31:21.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ManagerRole.cs",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\ManagerRole.cs",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\ManagerRole.cs",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\ManagerRole.cs",
+              "RelativeToolTip": "AciSozlukWebApp\\Models\\ManagerRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:10:40.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Report.cs",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Report.cs",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\Report.cs",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Report.cs",
+              "RelativeToolTip": "AciSozlukWebApp\\Models\\Report.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:10:38.026Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "ManagerLoginController.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\ManagerLoginController.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\ManagerLoginController.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\ManagerLoginController.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\ManagerLoginController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAgAAAAAAAAAA==",
+              "Title": "Entity.cs",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Entity.cs",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\Entity.cs",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Entity.cs",
+              "RelativeToolTip": "AciSozlukWebApp\\Models\\Entity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T18:31:46.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T05:10:34.935Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "Title.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Title.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\Title.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Title.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Models\\Title.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Title": "Entry.cs",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Entry.cs",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\Entry.cs",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Entry.cs",
+              "RelativeToolTip": "AciSozlukWebApp\\Models\\Entry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T02:06:38.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T05:07:43.061Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\Menu\\Index.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\Menu\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\Menu\\Index.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Views\\Menu\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T05:06:52.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\MemberPanel\\Views\\Default\\Index.cshtml",
               "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\MemberPanel\\Views\\Default\\Index.cshtml",
               "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\MemberPanel\\Views\\Default\\Index.cshtml",
               "RelativeToolTip": "AciSozlukWebApp\\Areas\\MemberPanel\\Views\\Default\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-13T23:25:47.055Z"
+              "WhenOpened": "2025-07-15T05:05:23.052Z"
             },
             {
               "$type": "Document",
@@ -531,313 +438,115 @@
               "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\MemberPanel\\Views\\Shared\\_LayoutPage1.cshtml",
               "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\MemberPanel\\Views\\Shared\\_LayoutPage1.cshtml",
               "RelativeToolTip": "AciSozlukWebApp\\Areas\\MemberPanel\\Views\\Shared\\_LayoutPage1.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-13T23:25:12.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "DefaultController.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\MemberPanel\\Controllers\\DefaultController.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\MemberPanel\\Controllers\\DefaultController.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\MemberPanel\\Controllers\\DefaultController.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\MemberPanel\\Controllers\\DefaultController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T23:25:32.468Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "MemberController.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\MemberController.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\MemberController.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\MemberController.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\MemberController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T02:12:21.354Z"
+              "WhenOpened": "2025-07-15T04:58:42.684Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "_LayoutPage1.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Shared\\_LayoutPage1.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Shared\\_LayoutPage1.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Shared\\_LayoutPage1.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Shared\\_LayoutPage1.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABUAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\Sharedd\\_LayoutPage1.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\Sharedd\\_LayoutPage1.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\Sharedd\\_LayoutPage1.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Views\\Sharedd\\_LayoutPage1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-12T03:11:34.473Z"
+              "WhenOpened": "2025-07-15T04:52:30.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Create.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-12T03:53:30.564Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Deleted.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Deleted.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Deleted.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Deleted.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Deleted.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-12T04:35:52.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Edit.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Edit.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-12T04:21:25.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "FeedBackController.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\FeedBackController.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\FeedBackController.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\FeedBackController.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\FeedBackController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T01:38:33.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T01:26:43.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Deleted.cshtml",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\FeedBack\\Deleted.cshtml",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\FeedBack\\Deleted.cshtml",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\FeedBack\\Deleted.cshtml",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\FeedBack\\Deleted.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-14T01:53:34.546Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "MemberPanelAreaRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\MemberPanel\\MemberPanelAreaRegistration.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\MemberPanel\\MemberPanelAreaRegistration.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\MemberPanel\\MemberPanelAreaRegistration.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\MemberPanel\\MemberPanelAreaRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T23:07:10.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ManagerPanelAreaRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\ManagerPanelAreaRegistration.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\ManagerPanelAreaRegistration.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\ManagerPanelAreaRegistration.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\ManagerPanelAreaRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T01:29:03.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T23:55:15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "web.config",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\web.config",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\web.config",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\web.config",
-              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-07-13T23:21:05.777Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "MemberLoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\ViewModels\\MemberLoginViewModel.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\ViewModels\\MemberLoginViewModel.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\ViewModels\\MemberLoginViewModel.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Models\\ViewModels\\MemberLoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T23:08:23.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ManagerLoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\ViewModels\\ManagerLoginViewModel.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\ViewModels\\ManagerLoginViewModel.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\ViewModels\\ManagerLoginViewModel.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Models\\ViewModels\\ManagerLoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T23:34:50.911Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 19,
               "Title": "Member.cs",
               "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Member.cs",
               "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\Member.cs",
               "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Member.cs",
               "RelativeToolTip": "AciSozlukWebApp\\Models\\Member.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T16:46:07.181Z"
+              "WhenOpened": "2025-07-15T04:31:13.673Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Commit.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Commit.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\Commit.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Commit.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Models\\Commit.cs",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\HomePageMember\\Create.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\HomePageMember\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\HomePageMember\\Create.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Views\\HomePageMember\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T01:26:31.218Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T04:54:40.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ManagerRole.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\ManagerRole.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\ManagerRole.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\ManagerRole.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Models\\ManagerRole.cs",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\FeedBack\\Create.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\FeedBack\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\FeedBack\\Create.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Views\\FeedBack\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T02:10:03.604Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T04:36:30.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Manager.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Manager.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\Manager.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Manager.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Models\\Manager.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "HomePageMemberController.cs",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Controllers\\HomePageMemberController.cs",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Controllers\\HomePageMemberController.cs",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Controllers\\HomePageMemberController.cs",
+              "RelativeToolTip": "AciSozlukWebApp\\Controllers\\HomePageMemberController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwEgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T02:07:17.888Z"
+              "WhenOpened": "2025-07-15T04:30:50.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "Report.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Report.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\Report.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Report.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Models\\Report.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T02:07:03.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "Like.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Like.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\Like.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Like.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Models\\Like.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T02:07:16.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "Entry.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Entry.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\Entry.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Entry.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Models\\Entry.cs",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\HomePageMember\\Index.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Views\\HomePageMember\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Views\\HomePageMember\\Index.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Views\\HomePageMember\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-13T02:09:48.805Z"
-            },
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T04:27:28.435Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "8048f5ad-33a6-4d39-bdc8-a8108b91e95c",
+        "Display": 0,
+        "X": 310,
+        "Y": 98,
+        "Width": 1623,
+        "Height": 771,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Category.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T01:26:35.644Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "AciSozlukDB.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\AciSozlukDB.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\AciSozlukDB.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\AciSozlukDB.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Models\\AciSozlukDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T01:25:05.928Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Entity.cs",
-              "RelativeDocumentMoniker": "AciSozlukWebApp\\Models\\Entity.cs",
-              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Models\\Entity.cs",
-              "RelativeToolTip": "AciSozlukWebApp\\Models\\Entity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T03:59:34.057Z"
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Create.cshtml",
+              "RelativeDocumentMoniker": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kocao\\source\\repos\\AciSozlukWebApp\\AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Create.cshtml",
+              "RelativeToolTip": "AciSozlukWebApp\\Areas\\ManagerPanel\\Views\\Role\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T05:34:09.476Z",
+              "EditorCaption": ""
             }
           ]
         }

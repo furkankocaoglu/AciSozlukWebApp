@@ -8,12 +8,10 @@ using System.Web;
 namespace AciSozlukWebApp.Models
 {
     public class Entry: Entity
-
     {
         public int MemberID { get; set; }
         [ForeignKey("MemberID")]
         public virtual Member Member { get; set; }
-
         public int TitleID { get; set; }
         [ForeignKey("TitleID")]
         public virtual Title Title { get; set; }
