@@ -134,6 +134,7 @@
     <Compile Include="Areas\ManagerPanel\Controllers\ManagerLoginController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\MemberController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\RoleController.cs" />
+    <Compile Include="Areas\ManagerPanel\Controllers\TitleController.cs" />
     <Compile Include="Areas\ManagerPanel\ManagerPanelAreaRegistration.cs" />
     <Compile Include="Areas\MemberPanel\Controllers\DefaultController.cs" />
     <Compile Include="Areas\MemberPanel\MemberPanelAreaRegistration.cs" />
@@ -143,6 +144,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HomePageMemberController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
+    <Compile Include="Controllers\TitleController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -184,6 +186,7 @@
     <Content Include="Areas\ManagerPanel\Views\Role\Create.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\Role\Sign.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\Role\Constitute.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Title\Index.cshtml" />
     <None Include="packages.config" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.css.map" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.min.css.map" />
@@ -215,6 +218,8 @@
     <Content Include="Views\Menu\Index.cshtml" />
     <Content Include="Views\About\Index.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
+    <Content Include="Views\Title\Create.cshtml" />
+    <Content Include="Views\Title\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -69,16 +69,15 @@ namespace AciSozlukWebApp.Controllers
 
                         if (count == 0)
                         {
-                            MemberRole caylakRol = db.MemberRoles.FirstOrDefault(x => x.Name == "Çaylak");
+                            MemberRole caylakRol = db.MemberRoles.FirstOrDefault(x => x.ID == 2);
 
                             if(caylakRol != null)
                             {
                                 model.MemberRole_ID = caylakRol.ID;
                             }
-
                             db.Members.Add(model);
                             db.SaveChanges();
-                            TempData["Mesaj"] = "Üyeliğiniz başarılı bir şekilde oluşturuldu";
+                            TempData["Mesaj"] = "Üyeliğiniz başarılı bir şekilde oluşturuldu.";
                             return RedirectToAction("Create", "HomePageMember");
                         }
                         else

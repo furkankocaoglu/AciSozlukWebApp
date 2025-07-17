@@ -1,0 +1,50 @@
+﻿@model List<AciSozlukWebApp.Models.Title>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <h3>Oluşturulan Kategoriler</h3>
+        </div>
+
+        @if (TempData["Mesaj"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["Mesaj"]
+            </div>
+        }
+
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Başlık Adı</th>
+                        <th>Kategori</th>
+                        <th>Oluşturma Tarihi</th>
+                        <th>İşlem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var Title in Model)
+                    {
+                        <tr>
+                            <td>@Title.ID</td>
+                            <td>@Title.TitleName</td>
+                            <td>@Title.Category.CategoryName</td>
+                            <td>@Title.CreationTime</td>
+                            <td>
+                                <a href="@Url.Action("Delete", "Title", new { id = Title.ID })">Kaldır</a>
+                                <a href="@Url.Action("Verification", "Title", new { id = Title.ID })">Onayla</a>
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

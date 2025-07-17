@@ -5,6 +5,36 @@
     <meta name="viewport" content="width=device-width" />
     <title>Acı Sözlük - Türkiye'nin Sözlük Platformu</title>
     <link href="~/Source/bootstrap-5.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .content-wrapper {
+            display: flex;
+            min-height: calc(100vh - 160px); 
+        }
+
+        nav.sidebar {
+            width: 250px;
+            border-right: 1px solid #ddd;
+            overflow-y: auto;
+            padding: 0.5rem 1rem;
+            background-color: white;
+        }
+
+        main.content-area {
+            flex-grow: 1;
+            padding: 1rem 2rem;
+            overflow-y: auto;
+        }
+       
+        nav.sidebar .nav-link {
+            font-size: 0.9rem;
+            padding-left: 0;
+        }
+    </style>
 </head>
 <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -21,7 +51,10 @@
                         <a href="@Url.Action("LogOut", "HomePageMember")" class="nav-link">Çıkış Yap</a>
                     </li>
                     <li class="nav-item">
-                        <a href="@Url.Action("Index", "Default" ,new {area="MemberPanel"})" class="nav-link">Profile Git</a>
+                        <a href="@Url.Action("Create", "Title")" class="nav-link">Başlık Oluştur</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="@Url.Action("Index", "Default", new { area = "MemberPanel" })" class="nav-link">Profile Git</a>
                     </li>
                 </ul>
             }
@@ -29,7 +62,7 @@
             {
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a href="@Url.Action("Index", "HomePageMember")" class="nav-link">Üye Girişi</a>
+                        <a href="@Url.Action("Index", "HomePageMember")" class="nav-link; btn btn-danger">Üye Girişi</a>
                     </li>
                     <li class="nav-item">
                         <a href="@Url.Action("Create", "HomePageMember")" class="nav-link">Kaydol</a>
@@ -38,14 +71,25 @@
             }
         </div>
     </nav>
+
     <hr />
     <ul class="nav justify-content-center">
         @Html.Action("Index", "Menu")
     </ul>
     <hr />
-    <div class="container mt-4">
-        @RenderBody()
+
+    <div class="content-wrapper">
+        <nav class="sidebar nav flex-column">
+            @Html.Action("Index", "Title")
+        </nav>
+
+        <main class="content-area">
+            <div class="container-fluid p-0">
+                @RenderBody()
+            </div>
+        </main>
     </div>
+
     <footer class="mt-auto border-top px-3 py-2 text-end">
         <div class="d-flex justify-content-end gap-3">
             <a href="@Url.Action("Create", "FeedBack")" class="nav-link p-0 m-0">Geri Bildirim</a>

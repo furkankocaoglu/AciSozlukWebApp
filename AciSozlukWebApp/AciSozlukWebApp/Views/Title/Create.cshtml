@@ -1,0 +1,35 @@
+﻿@model AciSozlukWebApp.Models.Title
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Sharedd/_LayoutPage1.cshtml";
+}
+
+<div class="container mt-1">
+    <div class="card shadow">
+        <div class="card-body">
+            @using (Html.BeginForm())
+            {
+                if (TempData["Mesaj"] != null)
+                {
+                    <div class="alert alert-warning">
+                        @TempData["Mesaj"]
+                    </div>
+                }
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <strong>Kategori Seç</strong>
+                    </div>
+                    @Html.DropDownListFor(x => x.CategoryID, ViewBag.Categories as SelectList, new { @class = "form-control" })
+                </div>
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <strong>Başlık Gir</strong>
+                    </div>
+                    @Html.EditorFor(x => x.TitleName, new { htmlAttributes = new { @class = "form-control" , @id="TitleName"} })
+                    @Html.ValidationMessageFor(x => x.TitleName, "", new { @class = "text-danger" })
+                </div>
+                <button type="submit">Oluştur</button>
+            }
+        </div>
+    </div>
+</div>
