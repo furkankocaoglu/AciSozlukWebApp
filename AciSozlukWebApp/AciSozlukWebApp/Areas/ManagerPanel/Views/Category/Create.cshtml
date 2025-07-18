@@ -19,7 +19,7 @@
             {
                 if (TempData["Mesaj"] != null)
                 {
-                    <div class="alert alert-danger">
+                    <div class="alert alert-danger" id="hataMesaji">
                         @TempData["Mesaj"]
                     </div>
                 }
@@ -30,6 +30,13 @@
                     @Html.EditorFor(x => x.CategoryName, new { htmlAttributes = new { @class = "form-control", @id = "Name" } })
                 </div>
                 <button type="submit">Oluştur</button>
+            }
+            @section Scripts {
+                <script>
+                    $(document).ready(function () {
+                        $("#hataMesaji").delay(3000).fadeOut(2000);
+                    });
+                </script>
             }
         </div>
     </div>

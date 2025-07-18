@@ -124,6 +124,7 @@
     <Content Include="Source\bootstrap-5.3.7-dist\js\bootstrap.esm.min.js" />
     <Content Include="Source\bootstrap-5.3.7-dist\js\bootstrap.js" />
     <Content Include="Source\bootstrap-5.3.7-dist\js\bootstrap.min.js" />
+    <Content Include="Source\jquery-3.7.1.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

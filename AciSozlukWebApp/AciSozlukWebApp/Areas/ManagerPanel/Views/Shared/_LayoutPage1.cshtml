@@ -18,6 +18,9 @@
 <body>
     <header class="navbar sticky-top bg-dark p-2 shadow" data-bs-theme="dark">
         <div class="container-fluid d-flex justify-content-between align-items-center">
+            <button id="sidebarToggleBtn" class="btn btn-outline-light btn-sm me-3" title="Sol Paneli Göster/Gizle">
+                ☰
+            </button>
             <a class="navbar-brand text-danger fw-bold" href="@Url.Action("Index","Home")">Acı Sözlük Panel Kontrol</a>
             <div class="float-end">
                 <a href="#" style="color: red; text-decoration: none;">@m.Name</a>&nbsp;&nbsp;&nbsp;
@@ -72,7 +75,9 @@
             </main>
         </div>
     </div>
+    <script src="~/Source/jquery-3.7.1.min.js"></script>
     <script src="~/Source/bootstrap-5.3.7-dist/js/bootstrap.min.js"></script>
     <script src="~/Source/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts",required:false)
 </body>
 </html>

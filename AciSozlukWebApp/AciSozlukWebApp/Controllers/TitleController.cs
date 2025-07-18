@@ -9,7 +9,7 @@ namespace AciSozlukWebApp.Controllers
 {
     public class TitleController : Controller
     {
-        AciSozlukDB db= new AciSozlukDB();
+        AciSozlukDB db = new AciSozlukDB();
         public ActionResult Index()
         {
             List<Title> titles = db.Titles.Where(x => x.IsActive == true).ToList();
@@ -26,19 +26,21 @@ namespace AciSozlukWebApp.Controllers
         public ActionResult Create(Title Model)
         {
             if (Session["MemberSession"] == null)
-            return RedirectToAction("Index","HomePageMember");
-
-            if(ModelState.IsValid)
+            {
+                TempData["Mesaj"] = "Üye girişi yapmanız gerekmektedir.";
+                return RedirectToAction("Index", "HomePageMember");
+            }
+            if (ModelState.IsValid)
             {
                 db.Titles.Add(Model);
                 db.SaveChanges();
-                TempData["Mesaj"] = "Başlık başarıyla eklendi.";
+                TempData["Mesaj"] = "Başlık yönetici onayında değerlendirilerek eklenecektir.";
                 return RedirectToAction("Create", "Title");
             }
             ViewBag.Categories = new SelectList(db.Categories, "ID", "CategoryName", Model.CategoryID);
             return View(Model);
 
         }
-        
+
     }
 }

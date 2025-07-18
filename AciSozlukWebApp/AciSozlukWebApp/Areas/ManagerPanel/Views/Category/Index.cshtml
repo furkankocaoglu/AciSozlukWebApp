@@ -4,6 +4,7 @@
     Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
 }
 
+
 <div class="container mt-5">
     <div class="card">
         <div class="card-header">
@@ -11,24 +12,29 @@
                 <h3><strong>Kategori Listesi</strong></h3>
             </div>
             <div class="float-end">
+
+                <button id="btn_idGizle" class="btn btn-danger">ID Kolonunu Gizle</button>
+                <button id="btn_idGoster" class="btn btn-success" style="display:none;">ID Kolonunu Göster</button>
+                <button id="btn_fadeToggle" class="btn btn-warning me-2">Tablo Gizle</button>
                 <a href="@Url.Action("Create","Category")" style="text-decoration:none">Yeni Ekle</a>
                 <a href="@Url.Action("Deleted","Category")" style="text-decoration:none">Silinenlere Git</a>
             </div>
         </div>
+
         <div class="mt-2 p-2">
             @if (TempData["Mesaj"] != null)
             {
-                <div class="alert alert-success">
+                <div class="alert alert-success" id="basariMesaji">
                     @TempData["Mesaj"]
                 </div>
             }
         </div>
         <div class="card-footer">
-            @Model.Count satır listeleniyor
+            <strong>@Model.Count Satır listeleniyor</strong>
         </div>
         <div class="card-body">
             <div class="table-responsive">
-                <table class="table table-bordered">
+                <table class="table table-dark" id="kategoriTablo" style="margin-left:auto; margin-right:auto;">
                     <thead>
                         <tr>
                             <th>ID</th>
@@ -40,15 +46,14 @@
                     <tbody>
                         @foreach (var category in Model)
                         {
-                            <tr>
+                            <tr class="tablo-satir">
                                 <td>@category.ID</td>
                                 <td>@category.CategoryName</td>
                                 <td>@category.CreationTime</td>
                                 <td>
-                                    <a href="@Url.Action("Edit", "Category", new {id= category.ID})" style="text-decoration:none">Düzenle</a>
-                                    <a href="@Url.Action("Delete", "Category", new { id = category.ID })" style="text-decoration:none">Kaldır</a>
+                                    <a href="@Url.Action("Edit", "Category", new { id = category.ID })" style="text-decoration:none">Düzenle</a>
+                                    <a href="@Url.Action("Delete", "Category", new { id = category.ID })" class="delete-link" style="text-decoration:none">Kaldır</a>
                                 </td>
-
                             </tr>
                         }
                     </tbody>
@@ -58,5 +63,38 @@
     </div>
 </div>
 
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#basariMesaji").delay(1000).fadeOut(1500);
 
+            $("a.delete-link").click(function (e) {
+                if (!confirm("Bu kategoriyi silmek istediğinize emin misiniz?")) {
+                    e.preventDefault();
+                }
+            });
 
+            $("#btn_idGizle").click(function () {
+                $("table thead th:nth-child(1), table tbody td:nth-child(1)").hide();
+                $(this).hide();
+                $("#btn_idGoster").show();
+            });
+
+            $("#btn_idGoster").click(function () {
+                $("table thead th:nth-child(1), table tbody td:nth-child(1)").show();
+                $(this).hide();
+                $("#btn_idGizle").show();
+            });
+
+            $("#btn_fadeToggle").click(function () {
+                $("#kategoriTablo").fadeToggle("slow");
+            });
+
+            $(document).on("mouseenter", "#kategoriTablo tbody tr td:nth-child(2)", function () {
+                $(this).css("color", "green");
+            }).on("mouseleave", "#kategoriTablo tbody tr td:nth-child(2)", function () {
+                $(this).css("color", "");
+            });
+        });
+    </script>
+}
