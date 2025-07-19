@@ -19,7 +19,8 @@ namespace AciSozlukWebApp.Controllers
         [HttpGet]
         public ActionResult Create()
         {
-            ViewBag.Categories = new SelectList(db.Categories, "ID", "CategoryName");
+            List<Category> aktifCategory=db.Categories.Where(x => x.IsActive==true).ToList();
+            ViewBag.Categories = new SelectList(aktifCategory, "ID", "CategoryName");
             return View();
         }
         [HttpPost]
@@ -37,7 +38,8 @@ namespace AciSozlukWebApp.Controllers
                 TempData["Mesaj"] = "Başlık yönetici onayında değerlendirilerek eklenecektir.";
                 return RedirectToAction("Create", "Title");
             }
-            ViewBag.Categories = new SelectList(db.Categories, "ID", "CategoryName", Model.CategoryID);
+            List<Category> aktifCategory = db.Categories.Where(x => x.IsActive == true).ToList();
+            ViewBag.Categories = new SelectList(aktifCategory, "ID", "CategoryName", Model.CategoryID);
             return View(Model);
 
         }

@@ -188,6 +188,7 @@
     <Content Include="Areas\ManagerPanel\Views\Role\Sign.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\Role\Constitute.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\Title\Index.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Title\Waiting.cshtml" />
     <None Include="packages.config" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.css.map" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.min.css.map" />

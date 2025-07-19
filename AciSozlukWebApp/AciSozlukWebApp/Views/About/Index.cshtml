@@ -2,36 +2,107 @@
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Sharedd/_LayoutPage1.cshtml";
+
+
 }
 
-<div class="container mt-1">
-    Acı Sözlük, kullanıcılarının gündem, yaşam, kültür, teknoloji ve aklınıza gelen her konuda görüşlerini özgürce paylaşabileceği, biraz acı biraz gerçek ama her daim samimi bir dijital sözlüktür.2015'lerden beri karşımıza çıkan o klasik "Sözlük siteleri"ne benzese de, Acı Sözlük bu yapıyı biraz daha… nasıl desek… acı biberle harmanladı.
-    Yani burada yazılan her entry, bazen düşündürür, bazen güldürür ama çoğu zaman hafif yakar.
-    <br />
-    <br />
-    🎯 Amacımız ne?
-    Amacımız, fikirlerini ifade etmek isteyen herkese özgür, sansürsüz ve eğlenceli bir platform sunmak.
-    İster gündemdeki bir olayı yorumla, ister sabah kahveni içerken aklına gelen bir kelimeyi anlat. Biz dinliyoruz. Diğer kullanıcılar da...
-    <br />
-    <br />
-    🧠 Kimler yazabilir?
-    Acı Sözlük, üye olan herkesin katkıda bulunabildiği bir topluluktur. Üyelik ücretsizdir, ama fikirler değerlidir.
-    Yazarlık, yalnızca yazmak değil; düşünmek, hissetmek ve paylaşmaktır.
-    <br />
-    <br />
-    🔥 Neden “Acı”?
-    Çünkü hayat tatlı değil.
-    Gerçekler bazen acıdır, ama dürüstçe söylenirse şifadır.
-    Acı Sözlük’te yazılanlar belki her zaman katılacağınız türden olmayabilir ama her zaman bir bakış açısı sunar.
-    <br />
-    <br />
-    💬 Biz kimiz?
-    Bir grup yazılım geliştirici, kelime sevdalısı ve klavye delisi tarafından kurulan Acı Sözlük, kâr amacı gütmeden, dijital kültüre katkı sağlamak amacıyla yoluna devam ediyor.
-    Küçük ama tutkulu bir ekibiz. Ve her yeni kullanıcıyla daha da büyüyoruz.
-    <br />
-    <br />
-    🌶️ Kısaca:
-    Düşün, yaz, yak.
-    Acı Sözlük burası.
+<style>
+    .tasiyici {
+        max-width: 1000px;
+        margin: 0 auto 15px auto;
+    }
+
+    .baslik {
+        background-color: #6c757d;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .icerik {
+        padding: 10px;
+        border: 1px solid #6c757d;
+        border-top: none;
+        border-radius: 0 0 5px 5px;
+        display: none;
+    }
+
+    .tasiyici:first-child .icerik {
+        display: block;
+    }
+</style>
+
+<div class="container mt-3">
+
+    <div class="tasiyici">
+        <div class="baslik">
+            Acı Sözlük Nedir?
+        </div>
+        <div class="icerik">
+            Acı Sözlük, kullanıcılarının gündem, yaşam, kültür, teknoloji ve aklınıza gelen her konuda görüşlerini özgürce paylaşabileceği, biraz acı biraz gerçek ama her daim samimi bir dijital sözlüktür.2015'lerden beri karşımıza çıkan o klasik "Sözlük siteleri"ne benzese de, Acı Sözlük bu yapıyı biraz daha… nasıl desek… acı biberle harmanladı.
+        </div>
+    </div>
+
+    <div class="tasiyici">
+        <div class="baslik">
+            Amacımız Ne?
+        </div>
+        <div class="icerik">
+            Amacımız, fikirlerini ifade etmek isteyen herkese özgür, sansürsüz ve eğlenceli bir platform sunmak.
+            İster gündemdeki bir olayı yorumla, ister sabah kahveni içerken aklına gelen bir kelimeyi anlat. Biz dinliyoruz. Diğer kullanıcılar da...
+        </div>
+    </div>
+
+    <div class="tasiyici">
+        <div class="baslik">
+            Kimler Yazabilir?
+        </div>
+        <div class="icerik">
+            Acı Sözlük, üye olan herkesin katkıda bulunabildiği bir topluluktur. Üyelik ücretsizdir, ama fikirler değerlidir.
+            Yazarlık, yalnızca yazmak değil; düşünmek, hissetmek ve paylaşmaktır.
+        </div>
+    </div>
+
+    <div class="tasiyici">
+        <div class="baslik">
+            Neden “Acı”?
+        </div>
+        <div class="icerik">
+            Çünkü hayat tatlı değil.
+            Gerçekler bazen acıdır, ama dürüstçe söylenirse şifadır.
+            Acı Sözlük’te yazılanlar belki her zaman katılacağınız türden olmayabilir ama her zaman bir bakış açısı sunar.
+        </div>
+    </div>
+
+    <div class="tasiyici">
+        <div class="baslik">
+            Biz Kimiz?
+        </div>
+        <div class="icerik">
+            Bir grup yazılım geliştirici, kelime sevdalısı ve klavye delisi tarafından kurulan Acı Sözlük, kâr amacı gütmeden, dijital kültüre katkı sağlamak amacıyla yoluna devam ediyor.
+            Küçük ama tutkulu bir ekibiz. Ve her yeni kullanıcıyla daha da büyüyoruz.
+        </div>
+    </div>
+
+    <div class="tasiyici">
+        <div class="baslik">
+            Kısaca
+        </div>
+        <div class="icerik">
+            Düşün, yaz, yak.
+            Acı Sözlük burası.
+        </div>
+    </div>
+
 </div>
 
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $(".baslik").click(function () {
+                $(this).next(".icerik").slideToggle(200);
+            });
+        });
+    </script>
+}

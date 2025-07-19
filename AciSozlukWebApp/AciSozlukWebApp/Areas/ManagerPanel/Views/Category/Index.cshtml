@@ -13,9 +13,10 @@
             </div>
             <div class="float-end">
 
-                <button id="btn_idGizle" class="btn btn-danger">ID Kolonunu Gizle</button>
-                <button id="btn_idGoster" class="btn btn-success" style="display:none;">ID Kolonunu Göster</button>
-                <button id="btn_fadeToggle" class="btn btn-warning me-2">Tablo Gizle</button>
+                <button id="btn_idGizle" class="btn btn-danger">ID Gizle</button>
+                <button id="btn_idGoster" class="btn btn-success" style="display:none;">ID Göster</button>
+                <button id="btn_tabloGizle" class="btn btn-warning me-2">Tablo Gizle</button>
+                <button id="btn_tabloGoster" class="btn btn-warning me-2" style="display:none;">Tablo Göster</button>
                 <a href="@Url.Action("Create","Category")" style="text-decoration:none">Yeni Ekle</a>
                 <a href="@Url.Action("Deleted","Category")" style="text-decoration:none">Silinenlere Git</a>
             </div>
@@ -84,6 +85,18 @@
                 $("table thead th:nth-child(1), table tbody td:nth-child(1)").show();
                 $(this).hide();
                 $("#btn_idGizle").show();
+            });
+
+            $("#btn_tabloGizle").click(function () {
+                $("#kategoriTablo").fadeOut("slow");
+                $(this).hide();
+                $("#btn_tabloGoster").show();
+            });
+
+            $("#btn_tabloGoster").click(function () {
+                $("#kategoriTablo").fadeIn("slow");
+                $(this).hide();
+                $("#btn_tabloGizle").show();
             });
 
             $("#btn_fadeToggle").click(function () {

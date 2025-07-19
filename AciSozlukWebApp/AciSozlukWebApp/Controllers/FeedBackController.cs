@@ -17,7 +17,6 @@ namespace AciSozlukWebApp.Controllers
         [HttpGet]
         public ActionResult Create()
         {
-
             return View();
         }
         [HttpPost]

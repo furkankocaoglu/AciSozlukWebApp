@@ -2,21 +2,33 @@
 @{
     ViewBag.Title = "Index";
     Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+    <style>
+        #fadeMesaj {
+            font-weight: bold;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+    </style>
 }
 
 <div class="container mt-5">
     <div class="card">
         <div class="card-header">
-            <h3>Oluşturulan Kategoriler</h3>
-        </div>
-
-        @if (TempData["Mesaj"] != null)
-        {
-            <div class="alert alert-success">
-                @TempData["Mesaj"]
+            <div class="float-start">
+                <h3>Oluşturulan Başlıklar</h3>
             </div>
-        }
-
+            <div class="float-end">
+                <a href="@Url.Action("Waiting","Title")">Bugün gelenlere git</a>
+            </div>
+        </div>
+        <div class="mt-2 p-2">
+            @if (TempData["Mesaj"] != null)
+            {
+                <div id="fadeMesaj" class="alert alert-success" style="display:none;">
+                    @TempData["Mesaj"]
+                </div>
+            }
+        </div>
         <div class="table-responsive">
             <table class="table table-bordered">
                 <thead>
@@ -38,8 +50,8 @@
                             <td>@Title.CreationTime</td>
                             <td>
                                 <a href="@Url.Action("Delete", "Title", new { id = Title.ID })">Kaldır</a>
-                                <a href="@Url.Action("Verification", "Title", new { id = Title.ID })">Onayla</a>
 
+                                <a href="@Url.Action("Verification", "Title", new { id = Title.ID })">Onayla</a>
                             </td>
                         </tr>
                     }
@@ -48,3 +60,10 @@
         </div>
     </div>
 </div>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#fadeMesaj").fadeIn("slow").delay(3000).fadeOut("slow");
+        });
+    </script>
+}

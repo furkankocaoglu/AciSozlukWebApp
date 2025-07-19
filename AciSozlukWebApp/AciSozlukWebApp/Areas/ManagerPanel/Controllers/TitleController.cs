@@ -25,7 +25,7 @@ namespace AciSozlukWebApp.Areas.ManagerPanel.Controllers
                     t.Deleted = true;
                     t.IsActive = false;
                     db.SaveChanges();
-                    TempData["Mesaj"] = "Başlık anasayfadan kaldırıldı";
+                    TempData["Mesaj"] = "Başlık kaldırıldı";
                     
                 }
                 return RedirectToAction("Index","Title");
@@ -49,6 +49,15 @@ namespace AciSozlukWebApp.Areas.ManagerPanel.Controllers
                 return RedirectToAction("Index", "Title");
             }
             return View();
+        }
+        public ActionResult Waiting()
+        {
+            DateTime today = DateTime.Today;
+            DateTime tomorrow =today.AddDays(1);
+
+            List<Title> titleList= db.Titles.Where(t => t.CreationTime >= today && t.CreationTime < tomorrow && t.Deleted == true).ToList();
+
+            return View(titleList);
         }
 
     }

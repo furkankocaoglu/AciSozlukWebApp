@@ -1,0 +1,55 @@
+﻿@model List<AciSozlukWebApp.Models.Title>
+@{
+    ViewBag.Title = "Waiting";
+    Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+
+}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header">
+            <div class="float-start">
+                <h3>Bugün Gelenler</h3>
+            </div>
+        </div>
+        <div class="mt-2 p-2">
+            @if (TempData["Mesaj"] != null)
+            {
+                <div class="alert alert-success" id="basariMesaji">
+                    @TempData["Mesaj"]
+                </div>
+            }
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-danger">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Başlık</th>
+                            <th>Kategori</th>
+                            <th>Oluşturma Tarihi</th>
+                            <th>Onay Durumu</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var title in Model)
+                        {
+                            <tr>
+                                <td>@title.ID</td>
+                                <td>@title.TitleName</td>
+                                <td>@title.Category.CategoryName</td>
+                                <td>@title.CreationTime</td>
+                                <td>
+                                    <a href="@Url.Action("Verification","Title", new { id= title.ID}) " style="text-decoration:none">Onayla</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
