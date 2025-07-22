@@ -31,7 +31,7 @@
                             <th>Mail Adresi</th>
                             <th>Cinsiyet</th>
                             <th>Doğum Tarihi</th>
-                            <th>Profil Resmi</th>
+                            <th class="profil-resmi-kolon">Profil Resmi</th>
                             <th>Kayıt Tarihi</th>
                         </tr>
                     </thead>
@@ -45,7 +45,7 @@
                                 <td>@member.Email</td>
                                 <td>@member.Gender</td>
                                 <td>@member.Birthday.ToShortDateString()</td>
-                                <td>
+                                <td class="profil-resmi-kolon">
                                     <img src="~/Assets/MemberImages/@member.Image" width="150" height="150" />
                                 </td>
                                 <td>@member.CreationTime</td>
@@ -61,24 +61,17 @@
 @section Scripts {
     <script>
         $(document).ready(function () {
-            var profileVisible = true; 
+            var profileVisible = true;
 
             $("#btn_toggle_profile").click(function () {
                 if (profileVisible) {
-                   
-                    $("#memberTable tr").each(function () {
-                        $(this).find("th, td").eq(6).hide();
-                    });
+                    $(".profil-resmi-kolon").hide();
                     $(this).text("Profil Resmi Göster").removeClass("btn-warning").addClass("btn-success");
-                    profileVisible = false;
                 } else {
-                    
-                    $("#memberTable tr").each(function () {
-                        $(this).find("th, td").eq(6).show();
-                    });
+                    $(".profil-resmi-kolon").show();
                     $(this).text("Profil Resmi Gizle").removeClass("btn-success").addClass("btn-warning");
-                    profileVisible = true;
                 }
+                profileVisible = !profileVisible;
             });
         });
     </script>

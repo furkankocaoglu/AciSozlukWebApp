@@ -25,7 +25,7 @@
                     <div class="mb-2">
                         <strong>Başlık Gir</strong>
                     </div>
-                    @Html.EditorFor(x => x.TitleName, new { htmlAttributes = new { @class = "form-control" , @id="TitleName"} })
+                    @Html.EditorFor(x => x.TitleName, new { htmlAttributes = new { @class = "form-control" , @id="TitleName", placeholder = "İlgili kategorilerde gündem veya dilediğiniz konu üzerinden başlık yazabilirsiniz."} })
                     @Html.ValidationMessageFor(x => x.TitleName, "", new { @class = "text-danger" })
                 </div>
                 <button type="submit">Oluştur</button>

@@ -1,0 +1,91 @@
+﻿@model AciSozlukWebApp.Models.Title
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Sharedd/_LayoutPage1.cshtml";
+    var memberSession = Session["MemberSession"]; // Üye girişi kontrolü
+}
+
+
+
+<div class="container mt-1">
+    <h2>@Model.TitleName</h2>
+    @if (TempData["Mesaj"] != null)
+    {
+    <div class="alert alert-warning" id="uyariMesaji">
+        @TempData["Mesaj"]
+    </div>
+    }
+
+    <div class="entry-list">
+        @foreach (var entry in Model.Entries.OrderByDescending(e => e.CreationTime))
+        {
+            <div class="entry mb-4 p-3 border-bottom">
+                <div class="entry-content mb-2">
+                    @entry.EntryWrite
+                </div>
+                <div class="d-flex justify-content-between align-items-center text-muted small">
+                    <div class="entry-actions">
+                        <i class="fa-regular fa-thumbs-up me-3" title="Beğen"></i><i class="fa-regular fa-thumbs-down" title="Beğenme"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-comment" title="Yorum yap"></i>&nbsp;&nbsp;&nbsp;<i class="fa-regular fa-star	" title="Favoriye Ekle">&nbsp;&nbsp;&nbsp;&nbsp;</i><i class="fa-solid fa-triangle-exclamation" title="Şikayet et"></i>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="me-2 text-end">
+                            <div class="text-muted">
+                                @entry.Member.NickName
+                                @entry.CreationTime
+                            </div>
+                        </div>
+                        <img src="~/Assets/MemberImages/@entry.Member.Image" width="70" height="70" class="rounded-circle" />
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@if (memberSession == null)
+{
+    <div class="alert alert-warning mt-4" role="alert">
+        Yazı eklemek için <a href="@Url.Action("Index", "HomePageMember")" class="alert-link">üye girişi yapmanız</a> gerekmektedir.
+    </div>
+}
+else
+{
+    <div class="entry-add mt-4">
+        <h4>Yazı Gir</h4>
+        @using (Html.BeginForm("CreateEntry", "Title", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()            
+            @Html.Hidden("TitleID", Model.ID)
+
+            <div class="form-group">
+                @Html.TextArea("EntryWrite", null, new { @class = "form-control", rows = "4", placeholder = "Yazınızı buraya yazın...", required = "required" })
+                @Html.ValidationMessage("EntryWrite", "", new { @class = "text-danger" })
+            </div>
+
+            <button type="submit" class="btn btn-danger mt-2">Gönder</button>
+        }
+    </div>
+}
+
+<style>
+    .entry-list {
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+    }
+
+    .entry {
+        white-space: pre-line;
+    }
+
+    .entry-meta {
+        margin-top: 10px;
+    }
+</style>
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#uyariMesaji").delay(1000).fadeOut(1000);
+        });
+    </script>
+}

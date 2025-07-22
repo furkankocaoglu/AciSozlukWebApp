@@ -1,10 +1,16 @@
 ﻿@model List<AciSozlukWebApp.Models.Title>
+@{
+    var db = new AciSozlukWebApp.Models.AciSozlukDB();
+    var entryCount = db.Entries.Count(x => x.Deleted);
+}
 
 @foreach (var item in Model)
 {
+    var count = db.Entries.Count(e => e.TitleID == item.ID && !e.Deleted);
+
     <li class="nav-item">
-        <a class="nav-link" href="@Url.Action("Index", "Title", new { id = item.ID })">
-            @item.TitleName
+        <a class="nav-link" href="@Url.Action("Detail", "Title", new { id = item.ID })">
+            @item.TitleName <span class="text-muted">(@count)</span>
         </a>
     </li>
 }

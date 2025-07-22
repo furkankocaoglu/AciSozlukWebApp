@@ -53,7 +53,7 @@ namespace AciSozlukWebApp.Areas.ManagerPanel.Controllers
         public ActionResult Waiting()
         {
             DateTime today = DateTime.Today;
-            DateTime tomorrow =today.AddDays(1);
+            DateTime tomorrow = today.AddDays(1);
 
             List<Title> titleList= db.Titles.Where(t => t.CreationTime >= today && t.CreationTime < tomorrow && t.Deleted == true).ToList();
 

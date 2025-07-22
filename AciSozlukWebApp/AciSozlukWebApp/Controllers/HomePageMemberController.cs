@@ -115,7 +115,7 @@ namespace AciSozlukWebApp.Controllers
                 }
                 else
                 {
-                    TempData["Mesaj"] = "Üye Bulunamadı. Lütfen Bilgilerinizi Kontrol Edin";
+                    TempData["Mesaj"] = "Üye Bulunamadı. Lütfen Bilgilerinizi Kontrol Edin.";
                 }
             }
             return View(model);
