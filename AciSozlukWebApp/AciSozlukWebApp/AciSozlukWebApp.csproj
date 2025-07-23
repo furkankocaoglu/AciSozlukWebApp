@@ -2226,6 +2226,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\CategoryController.cs" />
+    <Compile Include="Areas\ManagerPanel\Controllers\EntryController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\FeedBackController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\HomeController.cs" />
     <Compile Include="Areas\ManagerPanel\Controllers\ManagerLoginController.cs" />
@@ -2285,6 +2286,10 @@
     <Content Include="Areas\ManagerPanel\Views\Role\Constitute.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\Title\Index.cshtml" />
     <Content Include="Areas\ManagerPanel\Views\Title\Waiting.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Entry\Index.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Entry\Deleted.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Role\EditRole.cshtml" />
+    <Content Include="Areas\ManagerPanel\Views\Role\MemberRole.cshtml" />
     <None Include="packages.config" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.css.map" />
     <Content Include="Source\bootstrap-5.3.7-dist\css\bootstrap-grid.min.css.map" />

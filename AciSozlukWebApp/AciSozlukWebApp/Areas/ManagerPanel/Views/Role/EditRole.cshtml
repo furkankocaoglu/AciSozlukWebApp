@@ -1,0 +1,44 @@
+﻿@model AciSozlukWebApp.Models.Member
+@{
+    ViewBag.Title = "EditRole";
+    Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header">
+            <h3>Rol Düzenleme Sayfası</h3>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                @Html.HiddenFor(model => model.ID)
+             
+                if (ViewBag.Mesaj != null)
+                {
+                    <div class="alert alert-danger">@ViewBag.Mesaj</div>
+                }
+
+                <div class="mb-3">
+                    <label class="form-label">Kullanıcı Adı</label>
+                    <input type="text" class="form-control" value="@Model.NickName" readonly />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Mevcut Rol Numarası</label>
+                    <input type="text" class="form-control" value="@Model.MemberRole_ID" readonly />
+                </div>
+
+                <div class="mb-3">
+                    @Html.LabelFor(model => model.MemberRole_ID, "Yeni Geçeceği Rol", htmlAttributes: new { @class = "form-label" })
+                    @Html.DropDownListFor(model => model.MemberRole_ID, ViewBag.Roles as SelectList, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.MemberRole_ID, "", new { @class = "text-danger" })
+                </div>
+
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+                <a href="@Url.Action("Index", "Role")" class="btn btn-secondary ms-2">Geri Dön</a>
+            }
+        </div>
+    </div>
+</div>

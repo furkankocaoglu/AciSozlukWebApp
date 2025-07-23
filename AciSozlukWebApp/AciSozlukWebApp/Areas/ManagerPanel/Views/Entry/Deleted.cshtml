@@ -1,0 +1,100 @@
+﻿@model List<AciSozlukWebApp.Models.Entry>
+@{
+    ViewBag.Title = "Deleted";
+    Layout = "~/Areas/ManagerPanel/Views/Shared/_LayoutPage1.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header">
+            <div class="float-start">
+                <h3>Silinen Yazılar</h3>
+            </div>
+            <div class="float-end">
+                <a href="@Url.Action("Index","Entry")" style="text-decoration:none">Geri Dön</a>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered table-dark">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Oluşturan Üye</th>
+                            <th>Başlık Adı</th>
+                            <th>Yazı İçeriği</th>
+                            <th>Oluşturulma Tarihi</th>
+                            <th>İşlem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var entry in Model)
+                        {
+                            <tr>
+                                <td>@entry.ID</td>
+                                <td>@entry.Member.NickName</td>
+                                <td>@entry.Title.TitleName</td>
+                                <td>
+                                    @{
+                                        string preview = "";
+                                        string fullText = entry.EntryWrite ?? "";
+
+                                        if (fullText.Length > 30)
+                                        {
+                                            preview = fullText.Substring(0, 30) + "...";
+                                        }
+                                        else
+                                        {
+                                            preview = fullText;
+                                        }
+                                    }
+
+                                    <span class="entry-preview">@preview</span>
+                                    <span class="entry-full d-none">@fullText</span>
+
+                                    @if (fullText.Length > 30)
+                                    {
+                                        <button type="button" class="btn btn-sm btn-link read-more-btn" style="text-decoration:none">Devamını Oku</button>
+                                        <button type="button" class="btn btn-sm btn-link read-less-btn d-none" style="text-decoration:none">Kısalt</button>
+                                    }
+                                </td>
+                                <td>@entry.CreationTime</td>
+                                <td>
+                                    <a href="@Url.Action("Back","Entry", new {entry.ID})">Geri Al</a>
+                                </td>
+
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="card-footer">
+            <strong>@Model.Count adet listeleniyor</strong>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $('.read-more-btn').on('click', function () {
+                var $td = $(this).closest('td');
+                $td.find('.entry-preview').hide();
+                $td.find('.entry-full').removeClass('d-none');
+                $(this).addClass('d-none');
+                $td.find('.read-less-btn').removeClass('d-none');
+            });
+
+            $('.read-less-btn').on('click', function () {
+                var $td = $(this).closest('td');
+                $td.find('.entry-full').addClass('d-none');
+                $td.find('.entry-preview').show();
+                $(this).addClass('d-none');
+                $td.find('.read-more-btn').removeClass('d-none');
+            });
+        });
+    </script>
+}
+
+

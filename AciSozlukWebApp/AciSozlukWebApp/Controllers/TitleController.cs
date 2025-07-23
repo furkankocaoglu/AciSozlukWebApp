@@ -88,8 +88,8 @@ namespace AciSozlukWebApp.Controllers
                 Member uye = (Member)Session["MemberSession"];
                 model.MemberID = uye.ID;
                 model.CreationTime = DateTime.Now;
-                model.IsActive = false;
-                model.Deleted = true;
+                model.IsActive = true;
+                model.Deleted = false;
 
                 db.Entries.Add(model);
                 db.SaveChanges();
